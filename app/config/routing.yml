@@ -1,0 +1,4 @@
+cc_playsure:
+    resource: "@CCPlaysureBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,4 @@
+services:
+#    cc_playsure.example:
+#        class: CC\PlaysureBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
