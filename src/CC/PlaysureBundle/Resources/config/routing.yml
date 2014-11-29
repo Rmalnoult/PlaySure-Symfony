@@ -1,3 +1,7 @@
-cc_playsure_homepage:
+cc_hello_name:
     path:     /hello/{name}
-    defaults: { _controller: CCPlaysureBundle:Default:index }
+    defaults: { _controller: CCPlaysureBundle:Home:hello }
+
+home:
+    path:     /
+    defaults: { _controller: CCPlaysureBundle:Home:index }

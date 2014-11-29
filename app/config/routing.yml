@@ -1,4 +1,10 @@
+cc_user:
+    resource: "@CCUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
 cc_playsure:
     resource: "@CCPlaysureBundle/Resources/config/routing.yml"
     prefix:   /
-
