@@ -5,3 +5,7 @@ cc_hello_name:
 home:
     path:     /
     defaults: { _controller: CCPlaysureBundle:Home:index }
+
+submit_new_game:
+    path:     /submitnewgame
+    defaults: { _controller: CCPlaysureBundle:Game:submitNewGame }
