@@ -9,3 +9,7 @@ home:
 submit_new_game:
     path:     /submitnewgame
     defaults: { _controller: CCPlaysureBundle:Game:submitNewGame }
+
+admin:
+    path:     /admin
+    defaults: { _controller: CCPlaysureBundle:Admin:index }

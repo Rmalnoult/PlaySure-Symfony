@@ -2,8 +2,23 @@
 
 
 {% block content %}
-	
-	<h1>Hello world !</h1>
+
+{% if is_granted('ROLE_SUPER_ADMIN') %}
+<div class="card">
+     Hi Super Admin</div>
+ {% endif %}
+
+ {% if is_granted('ROLE_USER') %}
+ <div class="card">
+     Hi User
+</div> {% endif %}
+
+ {% if is_granted('ROLE_ADMIN') %}
+ <div class="card">
+     Hi Admin
+</div> {% endif %}
+
+
 
 
 	{% if games is defined %}
