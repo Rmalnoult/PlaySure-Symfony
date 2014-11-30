@@ -3,9 +3,9 @@ body {
     margin: 0;
     padding: 0;
 }
-a:hover {
+/*a:hover {
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=39702);
-}
+}*/
 #content {
     width: 100%;
 }
@@ -61,13 +61,48 @@ body, #content {
     display: block;
     margin-bottom: 15px;
 }
-.card .close {
+.card .time {
     position: absolute;
     top: 5px;
-    right: 5px;
+    right: 20px;
     background-color: transparent;
     color: #000;
 }
+.card .cote {
+    width: 70%;
+    margin: 0 auto;
+}
+.card .cote ul {
+    text-align: center;
+}
+.card .cote li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: .8em;
+}
+.card .cote li+li {
+    margin-left: 10px;
+}
+.card a.bet {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content {
     padding: 50px;
 }

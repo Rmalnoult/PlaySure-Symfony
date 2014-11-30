@@ -3,29 +3,31 @@
 
 {% block content %}
 
-{% if is_granted('ROLE_SUPER_ADMIN') %}
-<div class="card">
-     Hi Super Admin</div>
- {% endif %}
 
- {% if is_granted('ROLE_USER') %}
- <div class="card">
-     Hi User
-</div> {% endif %}
-
- {% if is_granted('ROLE_ADMIN') %}
- <div class="card">
-     Hi Admin
-</div> {% endif %}
-
-
-
-
+	<!-- Si la variable games existe, elle est s'affiche ici -->
 	{% if games is defined %}
+	<!-- Boucle qui affiche chaque game -->
 		{% for game in games %}
 		    	<div class="card">
 		    		<h2 class="">{{ game.teamA }} VS {{ game.teamB }}</h2>
-		    		<p class="" ></p>
+		    		<!-- <h3>Cotes</3> -->
+						<div class="cote">
+							<ul>
+								<li>
+									<p>{{ game.teamA }} : {{ game.coteA }}</p>
+								</li>
+								<li>
+									<p>Nul : {{ game.coteNul }}</p>
+								</li>
+								<li>
+									<p>{{ game.teamB }} : {{ game.coteB }}</p>
+								</li>
+								<div class="clear"></div>
+							</ul>
+
+						</div>
+		    		<p class="time" >{{ game.startTime }}</p>
+		    		<a href="{{path('betOnGame', {'gameId': game.id})}}  " class="bet">Parier sur cet expert</a>
 		    	</div>
 		{% endfor %}
 	{% endif %}

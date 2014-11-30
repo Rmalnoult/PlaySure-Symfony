@@ -11,10 +11,6 @@ class GameController extends Controller
 
     public function submitNewGameAction()
     {
-
-
-
-
         $game = new Game();
         // doctrine's syntax to load the game repo
         $postRepository = $this->getDoctrine()
@@ -62,4 +58,23 @@ class GameController extends Controller
             'form' => $form->createView(),
         ));
 	}
+
+
+    public function betOnGameAction($gameId)
+    {
+        
+
+
+
+
+        return $this->render('CCPlaysureBundle:Home:index.html.twig');
+
+
+
+        // $variablesToRender = array(
+        //         'games' =>  $games,
+        //         );  
+
+        // return $this->render('CCPlaysureBundle:Home:index.html.twig', $variablesToRender);  
+    }
 }

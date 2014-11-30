@@ -13,3 +13,11 @@ submit_new_game:
 admin:
     path:     /admin
     defaults: { _controller: CCPlaysureBundle:Admin:index }
+
+betOnGame:
+    path:     /betongame/{gameId}
+    defaults: { _controller: CCPlaysureBundle:Game:betOnGame }
+
+createNewExpert:
+    path:     /createnewexpert
+    defaults: { _controller: CCPlaysureBundle:Admin:createNewExpert }
