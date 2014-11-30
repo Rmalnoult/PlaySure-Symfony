@@ -36,23 +36,23 @@ class Game
     private $teamB;
 
     /**
-     * @var integer
+     * @var float
      *
-     * @ORM\Column(name="coteA", type="integer")
+     * @ORM\Column(name="coteA", type="float")
      */
     private $coteA;
 
     /**
-     * @var integer
+     * @var float
      *
-     * @ORM\Column(name="coteB", type="integer")
+     * @ORM\Column(name="coteB", type="float")
      */
     private $coteB;
 
     /**
-     * @var integer
+     * @var float
      *
-     * @ORM\Column(name="coteNul", type="integer")
+     * @ORM\Column(name="coteNul", type="float")
      */
     private $coteNul;
 

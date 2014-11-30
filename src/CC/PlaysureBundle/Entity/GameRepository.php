@@ -3,6 +3,8 @@
 namespace CC\PlaysureBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
+use CC\PlaysureBundle\Entity\Game;
+use CC\PlaysureBundle\Entity\GameRepository;
 
 /**
  * GameRepository
@@ -12,4 +14,11 @@ use Doctrine\ORM\EntityRepository;
  */
 class GameRepository extends EntityRepository
 {
+
+	public function getAllGames()
+	{
+		$gameRepository = $this->getEntityManager()->getRepository('CCPlaysureBundle:Game');
+		$games = $gameRepository->findBy(array(), array('id'=>'desc'));
+		return $games;
+	}
 }

@@ -12,6 +12,14 @@ class HomeController extends Controller
     }
     public function indexAction()
     {
-        return $this->render('CCPlaysureBundle:Home:index.html.twig');
+
+    	//display all games
+    	$gameRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Game');
+		$games = $gameRepository->getAllGames();
+        $variablesToRender = array(
+                'games' =>  $games,
+                );	
+
+        return $this->render('CCPlaysureBundle:Home:index.html.twig', $variablesToRender);
     }
 }
