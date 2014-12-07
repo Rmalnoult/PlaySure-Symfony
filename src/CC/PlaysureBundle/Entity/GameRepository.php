@@ -18,7 +18,7 @@ class GameRepository extends EntityRepository
 	public function getAllGames()
 	{
 		$gameRepository = $this->getEntityManager()->getRepository('CCPlaysureBundle:Game');
-		$games = $gameRepository->findBy(array(), array('id'=>'desc'));
+		$games = $gameRepository->findBy(array(), array('id'=>'asc'));
 		return $games;
 	}
 }

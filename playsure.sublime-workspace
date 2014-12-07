@@ -1,0 +1,1348 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"create",
+				"createNewExpert"
+			],
+			[
+				"game",
+				"gameRepository"
+			],
+			[
+				"testP",
+				"testPost1"
+			],
+			[
+				"pos",
+				"post2Content"
+			],
+			[
+				"new",
+				"newContent"
+			],
+			[
+				"reve",
+				"RevealedCardsRepository"
+			],
+			[
+				"round",
+				"roundRepository"
+			],
+			[
+				"arrare",
+				"array_replace"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"top",
+				"topPlayers"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"rounlo",
+				"roundsLostBankIsWinner"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"bank",
+				"bankCards"
+			],
+			[
+				"roun",
+				"roundBet"
+			],
+			[
+				"findOn",
+				"findOneByName"
+			],
+			[
+				"player",
+				"playerCards"
+			],
+			[
+				"card",
+				"card1"
+			],
+			[
+				"pre",
+				"preExistingCard"
+			],
+			[
+				"playerc",
+				"playerCards"
+			],
+			[
+				"play",
+				"playerCards"
+			],
+			[
+				"Revea",
+				"revealedCard"
+			],
+			[
+				"repo",
+				"repository"
+			],
+			[
+				"Las",
+				"LasVenturasBlackjackBundle"
+			],
+			[
+				"session",
+				"sessionName"
+			],
+			[
+				"ses",
+				"sessionName"
+			],
+			[
+				"Black",
+				"blackJackPlayer"
+			],
+			[
+				"res",
+				"Request"
+			],
+			[
+				"Task",
+				"TaskType"
+			],
+			[
+				"save",
+				"SaveAndAdd"
+			],
+			[
+				"created",
+				"Created"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"findAll",
+				"findAllOrderedByName"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"my",
+				"MyFirstBundle"
+			],
+			[
+				"app",
+				"append	.append()"
+			],
+			[
+				"hashta",
+				"hashtagStats"
+			],
+			[
+				"language",
+				"languageUsed"
+			],
+			[
+				"Has",
+				"appendHashtagStats"
+			],
+			[
+				"user",
+				"userTags"
+			],
+			[
+				"sess",
+				"sessionStorage"
+			],
+			[
+				"usera",
+				"usersArray"
+			],
+			[
+				"al",
+				"allTags"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"twee",
+				"tweetsPerMinute"
+			],
+			[
+				"num",
+				"numberofTweets"
+			],
+			[
+				"hashtag",
+				"hashtagStats"
+			],
+			[
+				"delta",
+				"deltaInMinutes"
+			],
+			[
+				"del",
+				"deltaInSeconds"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"tim",
+				"timeOfFirstTweet"
+			],
+			[
+				"tags",
+				"tagsAndNumbers"
+			],
+			[
+				"number",
+				"numberofTweets"
+			],
+			[
+				"has",
+				"hashtag"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"stre",
+				"stream"
+			],
+			[
+				"get",
+				"getAllTags"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"all",
+				"allTags"
+			],
+			[
+				"stream",
+				"streamActive"
+			],
+			[
+				"stop",
+				"stopstream"
+			],
+			[
+				"users",
+				"usersArray"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"congi",
+				"configTwitter"
+			],
+			[
+				"cong",
+				"configTwitter"
+			],
+			[
+				"cos",
+				"consumer_key"
+			],
+			[
+				"configt",
+				"configTwitter"
+			],
+			[
+				"config",
+				"configTwitter"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"me",
+				"MemoryStore"
+			],
+			[
+				"Fort",
+				"FortBoyard"
+			],
+			[
+				"Enquete",
+				"EnqueteExclusive"
+			],
+			[
+				"exp",
+				"expresseLayouts"
+			],
+			[
+				"zoo",
+				"zoomLevel"
+			],
+			[
+				"sear",
+				"searchLocationIDs"
+			],
+			[
+				"goog",
+				"googlemaps"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"pho",
+				"photolongitude"
+			],
+			[
+				"loca",
+				"locationId"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"map",
+				"map_canvas"
+			],
+			[
+				"baco",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/CC/PlaysureBundle/Resources/config/routing.yml",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Controller/GameController.php",
+			"settings":
+			{
+				"buffer_size": 2687,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Controller/AdminController.php",
+			"settings":
+			{
+				"buffer_size": 3404,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Entity/ExpertBet.php",
+			"settings":
+			{
+				"buffer_size": 5185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Resources/views/Admin/createNewExpertBet.html.twig",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/config/security.yml",
+			"settings":
+			{
+				"buffer_size": 2565,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Resources/views/Admin/createNewExpert.html.twig",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Controller/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 681,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Entity/GameRepository.php",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 883,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sf",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/PlaySure",
+		"/C/wamp/www/PlaySure/src",
+		"/C/wamp/www/PlaySure/src/CC",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/portfolio/js/script.js",
+		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/header.php",
+		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/footer.php",
+		"/C/Users/Romain/Desktop/scroll2anchor.js",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/js/script.js",
+		"/C/wamp/www/PlaySure/web/bundles/ccplaysure/css/style.css",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/layout.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/AdminController.php",
+		"/C/wamp/www/PlaySure/app/config/security.yml",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/GameController.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Admin/submitNewGame.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/Game.php",
+		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig",
+		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/reset.html.twig",
+		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/checkEmail.html.twig",
+		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/request.html.twig",
+		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig",
+		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/confirmed.html.twig",
+		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/show.html.twig",
+		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/edit.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Controller/PostController.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/HomeController.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/public/css/style.css",
+		"/C/wamp/www/PlaySure/app/config/config.yml",
+		"/C/wamp/www/PlaySure/app/config/routing.yml",
+		"/C/wamp/www/PlaySure/src/Acme/DemoBundle/Resources/config/routing.yml",
+		"/C/wamp/www/PlaySure/src/CC/UserBundle/Entity/User.php",
+		"/C/wamp/www/PlaySure/app/AppKernel.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Default/hello.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/UserBundle/Resources/config/routing.yml",
+		"/C/wamp/www/PlaySure/composer.json",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Default/index.html.twig",
+		"/C/wamp/www/PlaySure/app/config/parameters.yml",
+		"/C/wamp/www/PlaySure/.gitignore",
+		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/js/socialShareCounter.js",
+		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/functions.php",
+		"/C/wamp/www/woodwood/sftp-config.json",
+		"/C/wamp/www/BlackjackSymfony/app/phpunit.xml.dist",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Entity/UserRepository.php",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Tests/postTest.php",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/UserBundle/Resources/views/Profile/show.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/composer.json",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Tests/Controller/PostControllerTest.php",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Resources/views/layout.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Resources/views/Default/allPostsOnHomepage.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Resources/config/routing.yml",
+		"/C/wamp/www/ScrumSocialNetwork/web/bundles/smssn/css/style.css",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/UserBundle/Resources/views/Registration/register.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Controller/DefaultController.php",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Resources/views/Post/postAPost.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Resources/views/Default/index.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Entity/PostRepository.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/GameController.php",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/UserBundle/Resources/views/Security/login.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/app/logs/.gitkeep",
+		"/C/wamp/www/ScrumSocialNetwork/.gitignore",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/UserBundle/Resources/views/layout.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/UserBundle/Resources/views/Default/index.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/vendor/friendsofsymfony/user-bundle/Resources/config/routing/all.xml",
+		"/C/wamp/www/ScrumSocialNetwork/app/AppKernel.php",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/UserBundle/Entity/User.php",
+		"/C/wamp/www/ScrumSocialNetwork/app/config/parameters.yml",
+		"/C/wamp/www/ScrumSocialNetwork/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/UserBundle/SMUserBundle.php",
+		"/C/wamp/www/ScrumSocialNetwork/app/config/routing.yml",
+		"/C/wamp/www/ScrumSocialNetwork/app/config/config.yml",
+		"/C/wamp/www/ScrumSocialNetwork/app/config/security.yml",
+		"/C/wamp/www/PlaySure/routes.js",
+		"/C/wamp/www/PlaySure/controller/home.js",
+		"/C/wamp/www/PlaySure/controller/bet.js",
+		"/C/wamp/www/PlaySure/lib/users.js",
+		"/C/wamp/www/PlaySure/view/home/index.html",
+		"/C/wamp/www/PlaySure/public/script.js",
+		"/C/wamp/www/PlaySure/public/css/style.css",
+		"/C/wamp/www/PlaySure/app.js",
+		"/C/wamp/www/nodejsDashboard/lib/users.js",
+		"/C/wamp/www/nodejsDashboard/lib/socket.js",
+		"/C/wamp/www/nodejsDashboard/package.json",
+		"/C/wamp/www/nodejsDashboard/public/script.js",
+		"/C/wamp/www/nodejsDashboard/config/twitter.json",
+		"/C/wamp/www/nodejsDashboard/config/tv.json",
+		"/C/wamp/www/nodejsDashboard/routes.js",
+		"/C/wamp/www/nodejsDashboard/controller/home.js",
+		"/C/wamp/www/woodwood/wp-content/themes/woodwood/mobile.css",
+		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/style.css",
+		"/C/wamp/www/questiologie/wp-config.php",
+		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/sidebar.php",
+		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/page-home.php",
+		"/C/wamp/www/questiologie/sftp-config.json",
+		"/C/wamp/www/BlackjackSymfony/web/bundles/lasventuras/css/style.css",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Entity/RoundRepository.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Default/index.html.twig",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/result.html.twig",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Entity/Round.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Stats/stats.html.twig",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/game.html.twig",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/DefaultController.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/HomeController.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Entity/RevealedcardsRepository.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/StatsController.php",
+		"/C/wamp/www/archive/20141110 - BlackjackSymfony - archive/src/LasVenturas/BlackjackBundle/Entity/RoundRepository.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/PreGameController.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/UserController.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/lose.html.twig",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/tie.html.twig",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/win.html.twig",
+		"/C/wamp/www/symfonyCasino/src/TestNamespace/ORMTestBundle/Controller/DefaultController.php",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Entity/User.php",
+		"/C/wamp/www/BlackjackSymfony/.gitignore",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/config/routing.yml",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Default/signup.html.twig",
+		"/C/wamp/www/symfonyCasino/src/TestNamespace/ORMTestBundle/Entity/ProductRepository.php",
+		"/C/wamp/www/woodwood/wp-content/themes/woodwood/style.css",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/pregame.html.twig",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/layout.html.twig",
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/public/css/style.css",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-20.php",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-19.php",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-18.php",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-17.php",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-16.php",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-15.php",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-14.php",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-13.php",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-12.php",
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-11.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\PlaySure",
+			"C:\\wamp\\www\\speeddego\\wp-content\\themes\\speeddego",
+			"C:\\wamp\\www\\questiologie\\wp-content\\plugins\\events-manager"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"game",
+			";\n",
+			"h4",
+			"post",
+			"{% extends \"FOSUserBundle::layout.html.twig\" %}",
+			"int",
+			"h1",
+			"em",
+			"topPlayer",
+			"form",
+			"SMUserBundle",
+			"FOSUserBundle",
+			"search",
+			"tv",
+			"sock",
+			"controller",
+			"tie",
+			"playerWin",
+			"tied(",
+			"playerScore(",
+			"playerLoses",
+			" $em = $this->getDoctrine()->getManager();",
+			"playerLoses",
+			"tie",
+			"playettie",
+			"dump",
+			"cards value",
+			"card value",
+			"changeace",
+			"changeval",
+			"getplayerscore",
+			"changeace",
+			"getplayerscore",
+			"changeace",
+			"getplayer",
+			"change",
+			"changing",
+			"dump",
+			"hasanace",
+			"echo",
+			"playerWins",
+			"dump",
+			"hitme",
+			"dump",
+			"item",
+			"itemprop",
+			"itemtype",
+			"findAllOrderedByName",
+			"findOneByIdJoinedToCategory",
+			"delete",
+			"tie",
+			"playerWins",
+			"Maintenir l’accès à la fosse septique est la première mesure d’entretien régulier. Il faut mettre en place des regards de prélèvement sur les ouvertures de la fosse afin de prolonger ces dernières jusqu’à la \n					surface du sol. Les regards doivent être verrouillés et sécurisés pour prévenir toute entrée. Avec le temps, les boues s’accumulent au fond de la fosse septique et risquent de boucher l’entrée de la fosse et d’être refoulées à l’intérieur de la maison. Si un passage se créer malgré tout dans l’excédent, les boues finiront par se déverser dans le drain qui sera colmaté de façon irrémédiable. La <strong>fosse déborde</strong> et le réseau de la maison s’engorge.",
+			"Notre technologie novatrice à haute pression permet de traiter l’intégralité des canalisations verticales et horizontales en décapant en finesse les surfaces internes des <strong>réseaux de canalisation</strong> et en redonnant à ces dernières leur diamètre d’origine.",
+			"Le curage de vos canalisations est très important. Nous effectuons une recherche en procédant à une inspection avec des caméras haute qualité afin de procéder au nettoyage des canalisations et fosses septiques pour que celle-ci retrouvent une bonne évacuation. Contactez nos spécialistes curage Paris 1.",
+			"Notre technologie novatrice à haute pression permet de traiter l’intégralité des canalisations verticales et horizontales en décapant en finesse les surfaces internes des <strong>réseaux de canalisation</strong> et en redonnant à ces dernières leur diamètre d’origine. ",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75020, vidange bac à graisse à paris 20ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75019, vidange bac à graisse à paris 19ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75018, vidange bac à graisse à paris 18ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75017, vidange bac à graisse à paris 17ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75016, vidange bac à graisse à paris 16ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75015, vidange bac à graisse à paris 15ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			" Une évacuation ralentie est lourde de conséquence si elle n’est pas traitée. En effet, cette situation peut entrainer une remontée des eaux brutale et provoquer une inondation. C’est pourquoi nos experts interviennent dans les plus brefs délais. Nous sommes présent sur toute la France pour mettre fin à votre problème en procédant au dégorgement de vos canalisations. <strong>Le dégorgement et débouchage de canalisation </strong> se fait à l’aide de matériels professionnels indispensables : Furet électrique, la pompe à air comprimée, caméra ou <strong>camion hydrocureur à haute pression</strong>. Pour une efficacité complète, nous faisons tous les efforts pour nous équiper en matériel toujours plus performant. ",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75013, vidange bac à graisse à paris 13ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75012, vidange bac à graisse à paris 12ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75011, vidange bac à graisse à paris 11ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75010, vidange bac à graisse à paris 10ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75009, vidange bac à graisse à paris 9ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75008, vidange bac à graisse à paris 8ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75007, vidange bac à graisse à paris 7ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75006, vidange bac à graisse à Paris 6ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75005, vidange bac à graisse à paris 5ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75004, vidange bac à graisse à paris 4ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75003, vidange bac à graisse à paris 3ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75002, vidange bac à graisse à Paris 2ème</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"La société SPEED DEGO intervient que ce soit pour <strong>un pompage fosse septique 75001, vidange bac à graisse à Paris 1er</strong>, dégorgement canalisation, vidange de fosse septique, curage et assainissement, notre entreprise est à votre écoute avec un suivi particulier pour chacun afin de satisfaire à ces problèmes.",
+			"degorgement",
+			"playerCards",
+			"lose",
+			";\n",
+			"service works",
+			"redirectrespon",
+			"?>paris",
+			"bordConC",
+			"bord",
+			"dentée",
+			"denté",
+			"paris20",
+			"75020",
+			"paris 75020",
+			"paris 20",
+			"arrondissement",
+			"paris 20ème arrondissement",
+			"75020",
+			"paris",
+			"75020",
+			"arrondissement",
+			"paris 20",
+			"paris 20ème",
+			"paris20",
+			"paris 20",
+			"arrondissement",
+			"arrondissement ",
+			"arrondissement",
+			"paris 20ème",
+			"75020",
+			"paris 20ème",
+			"paris 20",
+			"paris20",
+			"paris19",
+			"paris 19",
+			"75019",
+			"paris 18",
+			"paris18",
+			"75018",
+			"75017",
+			"paris 17",
+			"paris17",
+			"paris16",
+			"paris 16",
+			"75016",
+			"75015",
+			"paris 15",
+			"paris15",
+			"paris14",
+			"paris 14",
+			"75014",
+			"75013"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"expert",
+			"game",
+			"{% extends \"CCPlaysureBundle::layout.html.twig\" %}",
+			"integer",
+			"post",
+			"SMSSNBundle",
+			"win",
+			"lose",
+			"Pour tous vos problèmes de fosse septique, nos professionnels sont à votre écoute et interviennent 7j/7, 24h/24 pour une vidange fosse septique à Paris 20.",
+			"Une fosse septique doit être entretenu et vidanger de temps en temps. Si c’est votre cas, Speed Dego est là pour répondre à votre demande et intervenir en un temps record pour une vidange fosse septique à Paris 19.",
+			"Situé dans le 17ème et vous êtes dans le besoin d’une vidange fosse septique ? Notre société est la pour répondre à votre demande rapidement, avec des spécialistes qualifiés qui prendront le temps de voir avec vous l’ensemble de votre réseau canalisation pour éviter d’éventuelle problème.",
+			"En cas d’urgence fosse septique Paris 15, nos professionnels peuvent intervenir à toute vitesse car nos agences se trouvent à coté. Appelez nous si vous êtes dans le besoin ou si vous avez des questions.",
+			"L’entretien d’une fosse septique est obligatoire. Dans le cas contraire, un bouchon ou le vieillissement des canalisations peuvent engendrer des dommages irréversibles. Avant qu’il ne soit trop tard, faites appel à des spécialistes en vidange fosse septique Paris 8, vous pouvez aussi demander un devis en ligne 100% gratuit.",
+			"Il est nécessaire de vider une fosse septique tout les 2 – 3ans. Cette durée passée, le bon fonctionnement de l’écoulement des eaux est en danger. Pour éviter d’éventuelle problème, faites une vidange fosse septique Paris 4, nos professionnels se trouvent juste à coté de chez vous et pourront intervenir au plus vite.",
+			"La vidange des fosses septiques est indispensable, elle doit être faite de temps en temps pour assurer le bon fonctionnement de la fosse et ainsi éviter les troubles de vos évacuations d’eau. Appelez Speed Dego pour une vidange fosse septique sur Paris 2.",
+			"L’entretien d’une fosse septique est indispensable ! C’est grâce à elle que l’épuration de l’eau peut être effectuée. C’est pourquoi la société Speed Dego existe et se compose des meilleurs professionnels pour effectuer des vidanges fosse septique Paris 1.",
+			"Si vous système d’évacuation montre des signes de défaillance, ce n’est peut être pas grave, un simple curage peut être réalisé pour remettre vos colonnes et canalisations en états en leur rendant leur diamètre normal. Pour un curage à Paris 20, n’hésitez pas à nous appeler au 01 70 70 02 58.",
+			"Notre société intervient 7j/7 et 24h/24 afin de ne pas vous laisser dans une situation désagréable. Pour toutes actions de détartrage curage Paris 19, nous sommes à votre service.",
+			"Vous recherchez une équipe de confiance pour pallier à un système d’évacuation défaillant ? Vous souhaitez effectuer un détartrage complet pour retrouver la performance de vos réseaux ? Nos experts curage Paris 18 seront à votre disposition pour remédier à ça.",
+			"Effectuer un curage est important. En effet, il évite un dégât des eaux trop importants, réduit la pollution mais surtout permet un fonctionnement optimal de vos réseaux d’évacuation. Faites appel à Speed Dego pour un curage Paris 17.",
+			"Besoin d’une intervention pour un curage ? Nous répondons à vos besoins le plus rapidement possible pour le curage à Paris 16 et vous assurer un service performant, rapide et adapté à votre demande.",
+			"Les canalisations peuvent se boucher. La vitesse d'écoulement de l'eau ralentir. Cela augmente les dépôts et les bouches encore plus. C’est pour ça qu’il est important d’effectuer des détartrages, nous sommes présent pour un curage Paris 15.",
+			"Des canalisations entartrées produisent des gazs toxiques, c’est pour cela qu’il ne faut jamais laisser vos réseaux d’évacuation des eaux dans cette situation trop longtemps. Nous intervenons pour le curage à Paris 14.",
+			"Un curage est parfois obligatoire pour rétablir le bon écoulement des eaux. Rapide et attentif, nos spécialistes possèdent des matériels spécialisés haut de gamme comme des hydrocureuses, furet, pompes électriques pour effectuer des curages Paris 13.",
+			"Besoin d’un curage Paris 8 ? Faites appel à Speed Dego, nous vous enverrons des spécialistes qui disposent de matériel performant pour pallier à ce problème.",
+			"Expert dans le domaine de l’urgence, nous sommes conscient qu’un souci de fuite, dégâts des eaux, bouchon de saleté peut être désagréable et demande à être vite réglé ! C’est pour ça que nos spécialistes curage Paris 6 sont présents dans votre quartier.",
+			"Vous recherchez des experts en curage à Paris 5 ? Faites appel à Speed Dego, grâce à la force de son réseau et la confiance de ses clients, nous avons des agences proches de chez vous afin de vous assurer une intervention dans les plus brefs délais.",
+			"Speed Dego s’est entouré des meilleures pour vous offrir un service de curage Paris 4 avec des spécialistes certifiés et attentif à la demande de chacun. N’hésitez pas à nous contactez au 01 70 70 02 58 en cas de besoin.",
+			"Notre société peut intervenir pour le curage de canalisations, bac à graisse, fosse septique Paris 3. Nous utilisons un matériel permettant un nettoyage et un rinçage adapté à chacun.",
+			"Si vous sentez que vos systèmes d’évacuation sont ralentis, c’est probablement qu’un curage est nécessaire. En effet, laissez ce problème trop longtemps peut être dangereux et engendrer une obstruction complète du réseau. Ne laissez pas cette situation s’installer, contactez Speed Dego expert curage paris 2 !",
+			"Le curage de vos canalisations est très important. Nous effectuons une recherche en procédant à une inspection avec des caméras haute qualité afin de procéder au nettoyage des canalisations et fosses septiques pour que celle-ci retrouvent une bonne évacuation. Contactez nos spécialistes curage Paris 1.",
+			"En cas de trouble au niveau de vos canalisation, ne laissez pas le problème s’installer et agissez avant que cela n’engendre de plus grosse travaux : nos experts sont disponible 7j/7 24h/24 pour le dégorgement des canalisations Paris 20.",
+			"Un système d’évacuation peut être fragilisé avec le temps, les petits déchets quotidiens, au mauvais entretien… C’est pour ça que Speed Dego est présent pour le dégorgement des canalisations à Paris 19.",
+			"v",
+			"Si vous avez besoin d’un dégorgement de vos canalisations Paris 17, contactez nous par téléphone, vous pouvez aussi faire un devis en ligne : nos spécialistes seront à votre écoute pour résoudre vos problèmes en un rien de temps.",
+			"Speed Dego répond à tous vos problèmes concernant le dégorgement de canalisation Paris 16 avec nos agences situées dans le quartier. Cela vous assure un service ultra rapide avec nos intervenants certifiés.",
+			"Un dégorgement des canalisations à Paris 15 s’impose ? N’hésitez pas à nous appelez, nous nous assurons d’un service de qualité pour tout nos clients car on sait que ce genre de situation peut être désagréable dans un foyer, surtout si le problème n’est pas traité rapidement.",
+			"Quand l’écoulement de l’eau est ralenti, que des mauvaises odeurs surviennent dans votre foyer, c’est qu’il est probablement le moment d’intervenir sur vos canalisations avant que la situation ne dégénère et engendre des travaux plus importants… Le dégorgement Paris 14 est possible en un temps record grâce aux nombreuses agences proche de chez vous",
+			"En cas d’urgence, ne vous jetez pas sur le numéro du premier inconnu. Faites appel à Speed Dego pour être sur de profiter d’une intervention de qualité, avec des professionnels certifiés et attentif à toutes vos questions. Pour un dégorgement Paris 13, notre société s’assure que vous soyez pris en charge de la meilleure façon possible. ",
+			"Vous êtes à la recherche d’expert en dégorgement ? Il n’est pas toujours facile de choisir parmi toutes les sociétés qui vous sont proposés aujourd’hui… En faisant le choix de SPEED DEGO pour nos services en dégorgement Paris 12, nous vous assurons une prise en charge totale, aussi rapide et efficace que possible.",
+			"Besoin urgent de dégorger vos canalisations ? Ne repoussez plus, appelez nous et nos professionnels s’engage à intervenir en moins d’une heure et au prix les plus bas pour que la situation ne dégénère pas et que seul l’action du dégorgement Paris 11 soit nécessaire. ",
+			"Le débouchage ou le dégorgement des canalisations est indispensable, chaque espace ou foyer ne doit pas négliger ce qui se passe dans l’ombre de vos éviers, douche, baignoire, ou même wc… C’est pour cela que Speed Dego existe et est à votre service pour toute action de dégorgement Paris 10. ",
+			"Au quotidien, de nombreux éléments passent par vos canalisations : résidus alimentaires, cheveux, toutes ses petites choses peuvent se bloquer dans vos canalisations et créer un bouchon. Mal ou non traité, cela peut causer de gros dégâts… N’hésitez pas à nous contactez rapidement, nous pouvons faire un dégorgement de vos canalisations Paris 9 avec des professionnels de qualités. ",
+			"Un dégorgement de vos canalisations s’impose ? Speed Dego a des équipes de plombiers professionnels en dégorgement à Paris 8 pour vous assurer un service rapide et efficace, certifié au prix les plus bas.",
+			"Vous êtes situés sur la rive gauche, autour du champ de mars, des invalides ? Vous rencontrez un problème d’écoulement d’eau ? Nos experts en dégorgement Paris 7 sont à votre service pour se rendre disponible au plus vite pour résoudre ses petits désagréments. ",
+			"Il existe de nombreux petits signes avant-coureur qui indique de vos canalisations sont en mauvais états. Par exemple, quand l’eau ne s’écoule plus de manière fluide, c’est qu’il est peut être temps de faire un dégorgement de vos canalisations. Si vous êtes situé à Paris 6, le dégorgement de vos canalisations peut se faire très rapidement grâce à l’intervention efficace de nos professionnels.",
+			"En cas d’urgence à Paris 5, notre société est expérimentée pour déboucher, détartrer et nettoyer tout type de canalisation, d’évier, baignoire, douche, gouttière, siphon, colonne, tout à l'égout.... Nous vous apporterons une solution rapide et efficace à tous vos problèmes de dégorgement Paris 5.",
+			"Vous êtes dans la nécessité d’effectuer un dégorgement Paris 4 ?  Faites appel à Speed Dego, notre entreprise est à votre service pour vous offrir une prestation de qualité, dans les plus brefs délais afin que vous puissiez retrouver tout le confort de votre habitat. ",
+			"Une évacuation des eaux ralenties peut être lourde en conséquence, c’est important de ne pas laisser la situation se dégrader ! Nous effectuons des dégorgements Paris 3 avec des professionnels de qualité qui seront à votre écoute pour vous aider à maintenir vos canalisations en meilleur état après l’intervention.",
+			"SPEED DEGO vous propose des prestations de débouchage de canalisation à Paris 2, dans des cas de recherche de bouchon dans les canalisations d’eaux usées, dégorgement de canalisation et remplacement de tuyauterie 24h/24 et 7j/7 ",
+			"Si vos canalisations sont bouchées, pensez à faire un dégorgement car un mauvais entretien des canalisations peut engendrer des problèmes bien plus grave ! Contactez nous et Speed Dego vous enverra des professionnels qualifiés pour toute action de dégorgement Paris 1.",
+			"bankCards",
+			"tie",
+			"?>assainissement-paris-",
+			"Seine et Marne",
+			"Seine St Denis",
+			"",
+			"Seine St Denis",
+			"",
+			"Val de Marne",
+			"",
+			"Val de Marne",
+			"Essone",
+			"",
+			"Essone",
+			"Hauts de Seine",
+			"paris20",
+			"paris 20",
+			"75020",
+			"paris 19",
+			"paris19",
+			"75019",
+			"75018",
+			"paris 18",
+			"paris18",
+			"paris17",
+			"paris 17",
+			"75017",
+			"75016",
+			"paris 16",
+			"paris16",
+			"paris15",
+			"paris 15",
+			"75015",
+			"75014",
+			"paris 14",
+			"paris14",
+			"paris 14",
+			"75014",
+			"75013",
+			"paris13",
+			"paris 13",
+			"paris 12",
+			"paris12",
+			"75012",
+			"75011",
+			"paris11",
+			"paris 11",
+			"paris 10",
+			"paris 75010",
+			"paris 75009",
+			"75008",
+			"75010",
+			"paris10",
+			"paris 9",
+			"paris9",
+			"paris10",
+			"75009",
+			"75008",
+			"paris 8",
+			"paris8",
+			"paris7",
+			"paris 7",
+			"75007",
+			"75006",
+			"Paris6",
+			"Paris 6",
+			"Paris 5",
+			"75005",
+			"paris 5",
+			"paris5",
+			"paris4",
+			"75004",
+			"paris 4",
+			"paris 3",
+			"75003",
+			"paris3",
+			"75002"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/CC/PlaysureBundle/Resources/config/routing.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/CC/PlaysureBundle/Controller/GameController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								106
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/CC/PlaysureBundle/Controller/AdminController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2342,
+								2342
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 718.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/CC/PlaysureBundle/Entity/ExpertBet.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1502,
+								1502
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 671.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/CC/PlaysureBundle/Resources/views/Admin/createNewExpertBet.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/config/security.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2098,
+								2098
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/CC/PlaysureBundle/Resources/views/Admin/createNewExpert.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								209
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/CC/PlaysureBundle/Controller/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								618,
+								618
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/CC/PlaysureBundle/Entity/GameRepository.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "playsure.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -27,7 +27,7 @@
 
 						</div>
 		    		<p class="time" >{{ game.startTime }}</p>
-		    		<a href="{{path('betOnGame', {'gameId': game.id})}}  " class="bet">Parier sur cet expert</a>
+		    		<a href="{{path('gameView', {'gameId': game.id})}}  " class="bet">Parier sur cet expert</a>
 		    	</div>
 		{% endfor %}
 	{% endif %}

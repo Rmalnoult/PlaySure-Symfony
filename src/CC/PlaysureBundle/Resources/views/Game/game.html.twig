@@ -1,0 +1,50 @@
+{% extends "CCPlaysureBundle::layout.html.twig" %}
+
+
+{% block content %}
+
+	<!-- Si la variable games existe, elle est s'affiche ici -->
+	{% if game is defined %}
+    	<div class="card">
+    		<h2 class="">{{ game.teamA }} VS {{ game.teamB }}</h2>
+    		<!-- <h3>Cotes</3> -->
+				<div class="cote">
+					<ul>
+						<li>
+							<p>{{ game.teamA }} : {{ game.coteA }}</p>
+						</li>
+						<li>
+							<p>Nul : {{ game.coteNul }}</p>
+						</li>
+						<li>
+							<p>{{ game.teamB }} : {{ game.coteB }}</p>
+						</li>
+						<div class="clear"></div>
+					</ul>
+
+				</div>
+    		<p class="time" >{{ game.startTime }}</p>
+    	</div>
+	{% endif %}
+
+	<!-- Si la variable games existe, elle est s'affiche ici -->
+	{% if expertBets is defined %}
+	<!-- Boucle qui affiche chaque game -->
+		{% for expertBet in expertBets %}
+	    	<div class="card">
+	    		<h2>{{ expertBet.expertName }}</h2>
+	    		<div class="pronostic">
+	    			<p>{{ expertBet.PronosticTeamA }} - {{ expertBet.PronosticTeamB }}</p>
+	    		</div>
+	    		<div class="prix">
+	    			<p>{{ expertBet.priceOfAction }}€</p>
+	    		</div>
+	    		<div class="actions">
+	    			<p>{{ expertBet.numberOfActionsSold }} / {{ expertBet.numberOfActionsTotal }}</p>
+	    		</div>
+	    		<a href="{{path('gameView', {'gameId': game.id})}}  " class="bet">Parier sur cet expert</a>
+	    	</div>
+		{% endfor %}
+	{% endif %}
+
+{% endblock %}

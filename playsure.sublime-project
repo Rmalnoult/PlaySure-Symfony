@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\wamp\\www\\ScrumSocialNetwork"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\wamp\\www\\BlackjackSymfony"
+		}
+	]
+}

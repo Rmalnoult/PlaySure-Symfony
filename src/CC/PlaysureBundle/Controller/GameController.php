@@ -5,6 +5,10 @@ namespace CC\PlaysureBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use CC\PlaysureBundle\Entity\Game;
 use CC\PlaysureBundle\Entity\GameRepository;
+use CC\PlaysureBundle\Entity\ExpertBet;
+use CC\PlaysureBundle\Entity\ExpertBetRepository;
+use CC\PlaysureBundle\Entity\Expert;
+use CC\PlaysureBundle\Entity\ExpertRepository;
 
 class GameController extends Controller
 {
@@ -60,14 +64,29 @@ class GameController extends Controller
 	}
 
 
-    public function betOnGameAction($gameId)
+    public function gameViewAction($gameId)
     {
         
 
+        // get the current game
+        $game = $this->getDoctrine()
+            ->getRepository('CCPlaysureBundle:Game')
+            ->find($gameId);
+
+        $expertBets = $this->getDoctrine()
+            ->getRepository('CCPlaysureBundle:ExpertBet')
+            ->findByGameId($gameId);
+
+        
 
 
+        $variablesToRender = array(
+                'game' =>  $game,
+                'expertBets' =>  $expertBets,
+                );  
 
-        return $this->render('CCPlaysureBundle:Home:index.html.twig');
+        return $this->render('CCPlaysureBundle:Game:game.html.twig', $variablesToRender);
+
 
 
 
