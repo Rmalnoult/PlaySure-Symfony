@@ -18,6 +18,10 @@ gameView:
     path:     /game/{gameId}
     defaults: { _controller: CCPlaysureBundle:Game:gameView }
 
+expertProfile:
+    path:     /expert/{expertId}
+    defaults: { _controller: CCPlaysureBundle:Expert:expertProfile }
+
 createNewExpert:
     path:     /createnewexpert
     defaults: { _controller: CCPlaysureBundle:Admin:createNewExpert }
