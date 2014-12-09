@@ -363,79 +363,39 @@
 			"file": "src/CC/PlaysureBundle/Resources/config/routing.yml",
 			"settings":
 			{
-				"buffer_size": 742,
+				"buffer_size": 833,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/CC/PlaysureBundle/Controller/GameController.php",
-			"settings":
-			{
-				"buffer_size": 2687,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "src/CC/PlaysureBundle/Controller/AdminController.php",
 			"settings":
 			{
-				"buffer_size": 3404,
+				"buffer_size": 3783,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/CC/PlaysureBundle/Entity/ExpertBet.php",
+			"file": "src/CC/PlaysureBundle/Controller/GameController.php",
 			"settings":
 			{
-				"buffer_size": 5185,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/CC/PlaysureBundle/Resources/views/Admin/createNewExpertBet.html.twig",
-			"settings":
-			{
-				"buffer_size": 209,
+				"buffer_size": 3317,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/config/security.yml",
+			"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
 			"settings":
 			{
-				"buffer_size": 2565,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/CC/PlaysureBundle/Resources/views/Admin/createNewExpert.html.twig",
-			"settings":
-			{
-				"buffer_size": 209,
+				"buffer_size": 1383,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/CC/PlaysureBundle/Controller/HomeController.php",
-			"settings":
-			{
-				"buffer_size": 681,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/CC/PlaysureBundle/Entity/GameRepository.php",
-			"settings":
-			{
-				"buffer_size": 545,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
 			"settings":
 			{
-				"buffer_size": 883,
+				"buffer_size": 882,
 				"line_ending": "Unix"
 			}
 		}
@@ -506,13 +466,19 @@
 	[
 		"/C/wamp/www/PlaySure",
 		"/C/wamp/www/PlaySure/src",
-		"/C/wamp/www/PlaySure/src/CC",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources"
+		"/C/wamp/www/PlaySure/src/CC"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Admin/createNewExpertBet.html.twig",
+		"/C/wamp/www/PlaySure/app/config/security.yml",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/GameRepository.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/AdminController.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Admin/createNewExpert.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/Expert.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/ExpertBet.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/HomeController.php",
 		"/C/wamp/www/portfolio/js/script.js",
 		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/header.php",
 		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/footer.php",
@@ -520,8 +486,6 @@
 		"/C/wamp/www/speeddego/wp-content/themes/speeddego/js/script.js",
 		"/C/wamp/www/PlaySure/web/bundles/ccplaysure/css/style.css",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/layout.html.twig",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/AdminController.php",
-		"/C/wamp/www/PlaySure/app/config/security.yml",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/GameController.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Admin/submitNewGame.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/Game.php",
@@ -534,7 +498,6 @@
 		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/show.html.twig",
 		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/edit.html.twig",
 		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Controller/PostController.php",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/HomeController.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/public/css/style.css",
 		"/C/wamp/www/PlaySure/app/config/config.yml",
 		"/C/wamp/www/PlaySure/app/config/routing.yml",
@@ -634,13 +597,7 @@
 		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-20.php",
 		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-19.php",
 		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-18.php",
-		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-17.php",
-		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-16.php",
-		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-15.php",
-		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-14.php",
-		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-13.php",
-		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-12.php",
-		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-11.php"
+		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-17.php"
 	],
 	"find":
 	{
@@ -661,6 +618,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Game",
 			"game",
 			";\n",
 			"h4",
@@ -787,8 +745,7 @@
 			"paris15",
 			"paris14",
 			"paris 14",
-			"75014",
-			"75013"
+			"75014"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -796,6 +753,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"ExpertBet",
 			"expert",
 			"game",
 			"{% extends \"CCPlaysureBundle::layout.html.twig\" %}",
@@ -922,8 +880,7 @@
 			"paris 4",
 			"paris 3",
 			"75003",
-			"paris3",
-			"75002"
+			"paris3"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -934,7 +891,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -943,15 +900,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 742,
+						"buffer_size": 833,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								465,
-								465
+								770,
+								770
 							]
 						],
 						"settings":
@@ -965,92 +922,26 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/CC/PlaysureBundle/Controller/GameController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2687,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								185,
-								106
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/CC/PlaysureBundle/Controller/AdminController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3404,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2342,
-								2342
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 718.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/CC/PlaysureBundle/Entity/ExpertBet.php",
+					"buffer": 1,
+					"file": "src/CC/PlaysureBundle/Controller/AdminController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5185,
+						"buffer_size": 3783,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1502,
-								1502
+								3314,
+								3314
 							]
 						],
 						"settings":
@@ -1063,122 +954,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 671.0,
+						"translation.y": 1135.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/CC/PlaysureBundle/Resources/views/Admin/createNewExpertBet.html.twig",
+					"buffer": 2,
+					"file": "src/CC/PlaysureBundle/Controller/GameController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 209,
+						"buffer_size": 3317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								146,
-								146
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/config/security.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2565,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2098,
-								2098
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 513.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/CC/PlaysureBundle/Resources/views/Admin/createNewExpert.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 209,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								209
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/CC/PlaysureBundle/Controller/HomeController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 681,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								618,
-								618
+								2866,
+								2866
 							]
 						],
 						"settings":
@@ -1191,58 +987,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 896.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "src/CC/PlaysureBundle/Entity/GameRepository.php",
+					"buffer": 3,
+					"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 545,
+						"buffer_size": 1383,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								522,
-								522
+								1171,
+								1171
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 78.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 4,
 					"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 883,
+						"buffer_size": 882,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								854,
-								854
+								673,
+								675
 							]
 						],
 						"settings":
@@ -1257,7 +1052,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1340,7 +1135,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 255.0,
+	"side_bar_width": 332.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -15,24 +15,23 @@
         <div id="content">
             <div id="header">
                 {% block header %}
-                    <h1><a href="{{ url('home') }}">Playsure</a></h1>
+                    <h1><a href="{{ url('home') }}"><img src="{{ asset('bundles/ccplaysure/images/logo.png', absolute=true) }}" alt="logo playsure"></a></h1>
                     <nav>
                         <ul id="userNav">
-                            <li><a href="{{ url('home') }}">HOME</a></li>
                                 {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
-                                                               
-                                    <li>
-                                        <a href="{{ path('fos_user_security_logout') }}">
-                                            {{ 'Logout'|trans({}, 'FOSUserBundle') }}
+                                    <li class="user">
+                                        <a  href="{{ path('fos_user_profile_edit') }}">
+                                            {{ 'Profil'|trans({}, 'FOSUserBundle') }}
+                                        </a>                                                               
+                                    <li class="logout" >
+                                        <a  href="{{ path('fos_user_security_logout') }}">
+                                            {{ 'Déconnexion'|trans({}, 'FOSUserBundle') }}
                                         </a>
                                     </li>
-                                  <li>
-                                        <a href="{{ path('fos_user_profile_edit') }}">
-                                            {{ 'Profil'|trans({}, 'FOSUserBundle') }}
-                                        </a>
+                                    </li>
                                 {% else %}
-                                    <li><a href="{{ url('fos_user_security_login') }}">Login</a></li>
-                                   <li><a href="{{ url('fos_user_registration_register') }}">Register</a></li>
+                                    <li class="user" ><a  href="{{ url('fos_user_security_login') }}">Connexion</a></li>
+                                   <li class="register" ><a  href="{{ url('fos_user_registration_register') }}">S'inscrire</a></li>
                                 {% endif %}
                         </ul>
                     </nav>

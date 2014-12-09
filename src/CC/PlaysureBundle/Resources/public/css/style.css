@@ -1,0 +1,163 @@
+body {
+    font-style: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*a:hover {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=39702);
+}*/
+#content {
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+body, #content {
+    height: 100%;
+}
+
+
+
+
+/*          Header            */
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+#header h1, #header h1 a {
+    color: #fff;
+    padding: 0px;
+    margin: 20px 4%;
+    text-decoration: none;
+}
+#header nav ul {
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    top: -70px;
+}
+#header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding: 10px 28px;
+    background-size: 20px;
+
+}
+#header nav ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #111;
+    text-decoration: none;
+}
+#header nav ul li.user {
+    background-image: url('../images/user.png');
+
+}
+#container {
+    width: 100%;
+    position: relative;
+    /*padding: 0 30px 50px;*/
+    background-color: #f5f5f5;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    overflow: visible;
+    height: 100%;
+}
+
+.card {
+    width: 500px;
+    padding: 40px;
+    background-color: #fff;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -25px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+.card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #F44336;
+    padding: 20px;
+    display: block;
+    margin-bottom: 15px;
+}
+.card .time {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    background-color: transparent;
+    color: #000;
+}
+.card .cote {
+    width: 70%;
+    margin: 0 auto;
+}
+.card .cote ul {
+    text-align: center;
+}
+.card .cote li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: .8em;
+}
+.card .cote li+li {
+    margin-left: 10px;
+}
+.card a.bet {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+    padding: 50px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+input {
+    padding: 10px;
+    display: block;
+    width: 215px;
+}
+button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #F44336;
+    padding: 10px;
+    float: right;
+    display: block; 
+    position: relative;
+    top: -40px;
+    border: none;
+}
+
+
+
