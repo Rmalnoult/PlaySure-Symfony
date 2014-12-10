@@ -38,14 +38,23 @@
                 
                 {% endblock %}
 
-            </div>             
+            </div>  
+
+            <nav>
+                <ul id="mainNav">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Calendrier</a></li>
+                    <li><a href="#">Nos Experts</a></li>
+                    <li><a href="#">Mes paris</a></li>
+                </ul>
+            </nav>
+
 
         {% block slider %}
 
         {% endblock slider %}   
         <div class="clear"></div>  
 
-        <div id="container">
             {% block body %}
                 
 
@@ -77,7 +86,6 @@
                     </div>
                 {% endif %}
             {% endblock %}
-        </div>
         <div id="footer">
             {% block footer %}
                 

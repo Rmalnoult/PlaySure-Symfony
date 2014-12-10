@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 /*a:hover {
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=39702);
 }*/
@@ -34,13 +37,13 @@ body, #content {
     margin: 20px 4%;
     text-decoration: none;
 }
-#header nav ul {
+#header nav ul#userNav {
     float: right;
     margin-right: 100px;
     position: relative;
     top: -70px;
 }
-#header nav ul li {
+#header nav ul#userNav li {
     display: inline-block;
     margin-left: 30px;
     background-repeat: no-repeat;
@@ -49,46 +52,109 @@ body, #content {
     background-size: 20px;
 
 }
-#header nav ul li a {
+#header nav ul#userNav li a {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 16px;
     color: #111;
     text-decoration: none;
 }
-#header nav ul li.user {
+#header nav ul#userNav li.user {
     background-image: url('../images/user.png');
 
 }
-#header nav ul li.logout, #header nav ul li.register  {
+#header nav ul#userNav li.logout, #header nav ul#userNav li.register  {
     background-image: url('../images/locked.png');
     background-size: 17px;
 
 }
 
+
+
+
+
+
+
+ nav ul#mainNav {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #d1d6d9; 
+
+}
+ nav ul#mainNav li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    padding: 0;
+}
+ nav ul#mainNav li a {
+    color: #313232;
+    font-weight: 400;
+    font-size: 1.2em;
+    display: block;
+    padding: 13px 0;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #d1d6d9;   
+
+    position: relative;
+    top: 0;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+    --webkit-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+ nav ul#mainNav li a:active, nav ul#mainNav li a:hover {
+    -webkit-box-shadow: 0 5px 10px 0 #141414;
+    box-shadow: 0 5px 10px 0 #141414;
+    z-index: 99;
+    top: -3px;
+}
+
+
+
+
 .slider {
     height: 300px;
     width: 100%;
+    position: relative;
 }
-.slider img {
+.slider img.bcg {
     height: 300px;
-    width: auto;
+    width: 1280px;
     position: absolute;
 }
 
+.slider img.player {
+    z-index: 5;
+    position: relative;
+    left: 10%;
+}
 .sliderText {
     position: absolute;
-    right: 304px;
-    top: 150px;
+    right: 15%;
+    top: 64px; 
     color: #fff;
     text-align: center;
 }
-.sliderText h2 {
+.expertText {
+    position: absolute;
+    right: 15%;
+    top: 60px; 
+    color: #fff;
+    text-align: center;
+}
+.sliderText h2, .expertText h2 {
     text-transform: uppercase;
     font-size: 24px;
     margin-bottom: 0;
 }
-.sliderText h2 strong {
+
+.sliderText h2 strong, .expertText h2 strong{
     text-transform: uppercase;
     font-size: 32px;
 }
@@ -107,12 +173,14 @@ body, #content {
 
 
 
-
+#container.home {
+    background-image: url(../images/stade.jpg);
+}
 
 #container {
     width: 100%;
+    max-width: 1280px;
     position: relative;
-    background-image: url(../images/stade.jpg);
     background-repeat: no-repeat;
     margin-top: 20px;
     padding-top: 20px;
@@ -141,10 +209,11 @@ body, #content {
 
 .card {
     width: 30%;
-    padding: 40px;
+    padding: 15px;
     background-color: #fff;
-    margin: 0 30px;
+    margin: 0 74px;
     top: 0;
+    z-index: 5;
     position: relative;
     text-align: center;
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.26);
@@ -172,6 +241,7 @@ body, #content {
     color:  #2a308f;
     font-size: 35px;
     font-weight: 900;
+    margin: 10px;
 }
 .card a {
     text-decoration: none;
@@ -204,7 +274,7 @@ body, #content {
     margin-left: 10px;
 }
 .card a.bet {
-    width: 200px;
+    width: 59%;
     text-align: center;
     margin: 0 auto;
 }
@@ -212,11 +282,38 @@ body, #content {
 
 
 
+.card:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: -12px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    width: 103%;
+    height: 104%;
+    display: block;
+    border: 6px solid #fff;
+
+}
 
 
 
 
 
+
+.card.title {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 0 30px 0;
+    padding: 20px 0;
+    position: relative;
+
+}
+.card.title:after {
+    display: none;
+}
 
 
 

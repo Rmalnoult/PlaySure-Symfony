@@ -4,6 +4,9 @@ namespace CC\PlaysureBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
 
+use CC\PlaysureBundle\Entity\Expert;
+use CC\PlaysureBundle\Entity\ExpertRepository;
+
 /**
  * ExpertRepository
  *
@@ -12,4 +15,13 @@ use Doctrine\ORM\EntityRepository;
  */
 class ExpertRepository extends EntityRepository
 {
+
+
+	public function getExpert($expertId)
+	{
+		$expertRepository = $this->getEntityManager()->getRepository('CCPlaysureBundle:Expert');
+		$expert = $expertRepository->find($expertId);
+		return $expert;
+	}
+
 }

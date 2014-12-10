@@ -2,7 +2,7 @@
 
 {% block slider %}
     <div class="slider">
-    	<img src="{{ asset('bundles/ccplaysure/images/leboeuf.jpg', absolute=true) }}" alt="les pronostics de frank leboeuf">
+    	<img class="bcg" src="{{ asset('bundles/ccplaysure/images/leboeuf.jpg', absolute=true) }}" alt="les pronostics de frank leboeuf">
 		<div class="sliderText">
 			<h2>L'expert du mois</br><strong>Franck Leboeuf</strong></h2>
 			<p>Pariez comme les champions !</p>
@@ -13,7 +13,7 @@
 
 
 {% block content %}
-
+<div id="container" class="home">
 	<div class="fleche">
 		<img class="pointe" src="{{ asset('bundles/ccplaysure/images/pointe.png', absolute=true) }}" alt="">
 		<img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
@@ -48,7 +48,7 @@
 							</ul>
 
 						</div>
-		    		<p class="time" >{{ game.startTime }}</p>
+		    		<!-- <p class="time" >{{ game.startTime }}</p> -->
 		    		<a href="{{path('gameView', {'gameId': game.id})}}  " class="bet">Parier sur ce match</a>
 		    	</div>
 		    	{% if i % 2 %}
@@ -60,5 +60,5 @@
 		    	</div>
 		{% endfor %}
 	{% endif %}
-
+</div>
 {% endblock %}

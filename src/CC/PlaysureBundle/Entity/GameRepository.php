@@ -21,4 +21,10 @@ class GameRepository extends EntityRepository
 		$games = $gameRepository->findBy(array(), array('id'=>'asc'));
 		return $games;
 	}
+	public function getGame($gameId)
+	{
+		$gameRepository = $this->getEntityManager()->getRepository('CCPlaysureBundle:Game');
+		$game = $gameRepository->find($gameId);
+		return $game;
+	}
 }

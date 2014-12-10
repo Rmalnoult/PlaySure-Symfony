@@ -1,8 +1,53 @@
 {% extends "CCPlaysureBundle::layout.html.twig" %}
 
 
+{% block slider %}
+    <div class="slider">
+    	<img class="bcg" src="{{ asset('bundles/ccplaysure/images/expertBackground.jpg', absolute=true) }}" alt="fond">
+    	<img class="player" src="{{ asset('bundles/ccplaysure/images/expert'~ expert.Id ~'.png', absolute=true) }}" alt="fond">
+		<div class="expertText">
+			<h2><strong>{{expertName}}</strong></h2>
+		</div>
+		<div class="clear"></div>
+    </div>
+{% endblock %}
+
+
 {% block content %}
+<div id="container" class="home">
+	<div class="fleche">
+		<img class="pointe" src="{{ asset('bundles/ccplaysure/images/pointe.png', absolute=true) }}" alt="">
+		<img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
+	</div>
+	<!-- Si la variable games existe, elle est s'affiche ici -->
+	{% if expertBets is defined %}
+	<!-- Boucle qui affiche chaque game -->
+		{% set i = 0 %}
+		{% for expertBet in expertBets %}
+				{% set i = i + 1 %}
 
-<p>expert</p>
-
+				{% if i % 2 %}
+				    <div class="card left">
+				{% else %}
+				    <div class="card right">
+				{% endif %}
+		    	
+		    		<h2 class="">{{ expertBet.teamA }} VS {{ expertBet.teamB }}</h2>
+		    		<h2 class="">{{ expertBet.pronosticTeamA }} - {{ expertBet.pronosticTeamB }}</h2>
+		    		<div class="actions">
+		    			<p>{{ expertBet.priceOfAction }} €</p>
+		    			<p>{{ expertBet.numberOfActionsSold }} / {{ expertBet.numberOfActionsTotal }}</p>
+		    		</div>
+					<a href="{{path('gameView', {'gameId': expertBet.gameId})}}  " class="bet">Parier sur ce match</a>
+		    	</div>
+		    	{% if i % 2 %}
+		    	    <div class="whiteCircle left">
+		    	{% else %}
+		    	    <div class="whiteCircle right">
+		    	{% endif %}
+		    		<img src="{{ asset('bundles/ccplaysure/images/circle.png', absolute=true) }}" alt="cercle">
+		    	</div>
+		{% endfor %}
+	{% endif %}
+</div>
 {% endblock %}

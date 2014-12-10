@@ -17,9 +17,50 @@ class ExpertController extends Controller
     public function expertProfileAction($expertId)
     {
         
-        $variablesToRender = array(
 
-                );  
+
+
+        // get expert name, expert games
+        // put the name as a css class to display pic
+
+
+        //display all games
+        $expertRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Expert');
+        // get expert
+        $expert = $expertRepository->getExpert($expertId);
+
+        $expertName = $expert->getName();
+
+        // get this expert's bet
+        $expertBetRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:ExpertBet');
+        // get expertBets
+        $expertBets = $expertBetRepository->getExpertBets($expertId);
+
+
+        // get games for the expertBets
+
+         $gameRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Game');
+         // get games
+
+         foreach ($expertBets as $expertBet) {
+            $gameId = $expertBet->getGameId();
+            $game = $gameRepository->getGame($gameId);
+
+            $teamA = $game->getTeamA();
+            $teamB = $game->getTeamB();
+
+            $expertBet->teamA = $teamA;
+            $expertBet->teamB = $teamB;            
+
+         }
+    
+
+
+        $variablesToRender = array(
+                'expertBets' =>  $expertBets,
+                'expertName' =>  $expertName,
+                'expert' =>  $expert,
+                );   
 
         return $this->render('CCPlaysureBundle:Expert:profile.html.twig', $variablesToRender);
 
