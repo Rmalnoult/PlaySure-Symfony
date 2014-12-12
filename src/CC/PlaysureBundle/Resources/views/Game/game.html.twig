@@ -51,16 +51,18 @@
 			    <div class="card right">
 			{% endif %}
 		    		<h2>{{ expertBet.expertName }}</h2>
-		    		<div class="pronostic">
-		    			<p>{{ expertBet.PronosticTeamA }} - {{ expertBet.PronosticTeamB }}</p>
-		    		</div>
-		    		<div class="prix">
-		    			<p>{{ expertBet.priceOfAction }}€</p>
-		    		</div>
-		    		<div class="actions">
-		    			<p>{{ expertBet.numberOfActionsSold }} / {{ expertBet.numberOfActionsTotal }}</p>
-		    		</div>
+		    		
+		    		<h2>{{ expertBet.PronosticTeamA }} - {{ expertBet.PronosticTeamB }}</h2>
+		    		
 		    		<a href="{{path('expertBet', {'gameId': expertBet.gameId,'expertBetId': expertBet.id})}}  " class="bet">Parier avec cet expert</a>
+		    		<p class="price">{{ expertBet.priceOfAction }} €</p>
+		    		<div class="actions">
+		    			<p><span class="numberOfActionsSold{{ i }}">{{ expertBet.numberOfActionsSold }}</span> parieurs sur <span class="numberOfActionsTotal{{ i }}" >{{ expertBet.numberOfActionsTotal }}</span></p>
+		    			<div id="bar{{ i }}"></div>
+		    			
+		    		</div>
+		    		<div class="clear"></div>
+
 		    	</div>
 	    		{% if i % 2 %}
 	    		    <div class="whiteCircle left">

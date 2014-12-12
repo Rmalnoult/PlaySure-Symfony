@@ -35,11 +35,15 @@
 		    	
 		    		<h2 class="">{{ expertBet.teamA }} VS {{ expertBet.teamB }}</h2>
 		    		<h2 class="">{{ expertBet.pronosticTeamA }} - {{ expertBet.pronosticTeamB }}</h2>
+		    		<a href="{{path('expertBet', {'gameId': expertBet.gameId, 'expertBetId': expertBet.Id})}}  " class="bet">Je parie {{ expertBet.priceOfAction }}€</a>
+		    		<p class="price">{{ expertBet.priceOfAction }} €</p>
 		    		<div class="actions">
-		    			<p>{{ expertBet.priceOfAction }} €</p>
-		    			<p>{{ expertBet.numberOfActionsSold }} / {{ expertBet.numberOfActionsTotal }}</p>
+		    			<p><span class="numberOfActionsSold{{ i }}">{{ expertBet.numberOfActionsSold }}</span> parieurs sur <span class="numberOfActionsTotal{{ i }}" >{{ expertBet.numberOfActionsTotal }}</span></p>
+		    			<div id="bar{{ i }}"></div>
+		    			
 		    		</div>
-					<a href="{{path('expertBet', {'gameId': expertBet.gameId, 'expertBetId': expertBet.Id})}}  " class="bet">Je parie {{ expertBet.priceOfAction }}€</a>
+		    		<div class="clear"></div>
+					
 		    	</div>
 		    	{% if i % 2 %}
 		    	    <div class="whiteCircle left">
