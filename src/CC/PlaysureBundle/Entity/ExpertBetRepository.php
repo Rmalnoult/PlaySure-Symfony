@@ -18,8 +18,14 @@ class ExpertBetRepository extends EntityRepository
 
 	public function getExpertBets($expertId)
 	{
-		$expertRepository = $this->getEntityManager()->getRepository('CCPlaysureBundle:ExpertBet');
-		$expertBets = $expertRepository->findByExpertId($expertId);
+		$expertBetRepository = $this->getEntityManager()->getRepository('CCPlaysureBundle:ExpertBet');
+		$expertBets = $expertBetRepository->findByExpertId($expertId);
 		return $expertBets;
+	}
+	public function getExpertBet($expertBetId)
+	{
+		$expertBetRepository = $this->getEntityManager()->getRepository('CCPlaysureBundle:ExpertBet');
+		$expertBet = $expertBetRepository->find($expertBetId);
+		return $expertBet;
 	}
 }

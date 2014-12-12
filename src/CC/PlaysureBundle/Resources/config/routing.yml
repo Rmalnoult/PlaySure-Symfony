@@ -33,3 +33,7 @@ createNewExpertBet:
 ajaxTest:
     path:     /testajax
     defaults: { _controller: CCPlaysureBundle:Admin:ajaxTest }
+
+expertBet:
+    path:    /expertBet/{gameId}/{expertBetId}
+    defaults: {_controller: CCPlaysureBundle:Expert:expertBet}

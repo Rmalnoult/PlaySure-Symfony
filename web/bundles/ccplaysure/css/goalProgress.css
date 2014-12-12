@@ -1,0 +1,20 @@
+.goalProgress {
+	background: #d9d9de;
+	padding: 0px;
+}
+div.progressBar {
+	background: #d88a0f;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'helvetica neue', helvetica, arial, sans-serif;
+	letter-spacing: -1px;
+	font-weight: 700;
+	padding: 0px;
+	display: block;
+	overflow: hidden;
+	width: 20px;
+}
+span.goalAmount {
+	display: none;
+	text-indent: -9999px;
+}

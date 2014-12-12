@@ -73,4 +73,50 @@ class ExpertController extends Controller
 
         // return $this->render('CCPlaysureBundle:Home:index.html.twig', $variablesToRender);  
     }
+    public function expertBetAction($gameId, $expertBetId)
+    {
+        
+        $gameRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Game');
+        $game = $gameRepository->getGame($gameId);
+        // get this expert's bet
+        $expertBetRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:ExpertBet');
+        // get expertBets
+        $expertBet = $expertBetRepository->getExpertBet($expertBetId);
+
+        $expertId = $expertBet->getExpertId();
+
+        //display all games
+        $expertRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Expert');
+        // get expert
+        $expert = $expertRepository->getExpert($expertId);
+
+        $expertName = $expert->getName();
+
+        // get games for the expertBets
+
+         // foreach ($expertBets as $expertBet) {
+         //    $gameId = $expertBet->getGameId();
+         //    $game = $gameRepository->getGame($gameId);
+
+         //    $teamA = $game->getTeamA();
+         //    $teamB = $game->getTeamB();
+
+         //    $expertBet->teamA = $teamA;
+         //    $expertBet->teamB = $teamB;            
+
+         // }
+        
+
+
+        $variablesToRender = array(
+                'expertBet' =>  $expertBet,
+                'expertName' =>  $expertName,
+                'expert' =>  $expert,
+                'game' => $game,
+                );   
+
+        return $this->render('CCPlaysureBundle:Expert:expertBet.html.twig', $variablesToRender);
+
+
+    }
 }

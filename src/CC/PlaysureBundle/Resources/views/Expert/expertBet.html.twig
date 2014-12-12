@@ -5,8 +5,15 @@
     <div class="slider">
     	<img class="bcg" src="{{ asset('bundles/ccplaysure/images/expertBackground.jpg', absolute=true) }}" alt="fond">
     	<img class="player" src="{{ asset('bundles/ccplaysure/images/expert'~ expert.Id ~'.png', absolute=true) }}" alt="fond">
-		<div class="expertText">
-			<h2><strong>{{expertName}}</strong></h2>
+    	<h2 class="expertName"><strong><a href="{{path('expertProfile', {'expertId': expertBet.expertId})}}">{{expertName}}</a></strong></h2>
+		<div class="gameText">
+			<h1>{{ game.teamA }} - {{ game.teamB }}</h1><br/><h1>{{ expertBet.pronosticTeamA }} - {{ expertBet.pronosticTeamB }}</h1>
+		</div>
+		<div class="parier">
+			<a href="{{path('expertProfile', {'expertId': 3})}}" class="sliderCTA">Parier {{ expertBet.priceOfAction }}€</a>
+			<p class="numberOfActions" ><span class="numberOfActionsSold">{{ expertBet.numberOfActionsSold }}</span> parieurs sur <span class="numberOfActionsTotal">{{ expertBet.numberOfActionsTotal }}</span></p>
+			<div id="sample_goal"></div>
+
 		</div>
 		<div class="clear"></div>
     </div>
@@ -39,7 +46,7 @@
 		    			<p>{{ expertBet.priceOfAction }} €</p>
 		    			<p>{{ expertBet.numberOfActionsSold }} / {{ expertBet.numberOfActionsTotal }}</p>
 		    		</div>
-					<a href="{{path('expertBet', {'gameId': expertBet.gameId, 'expertBetId': expertBet.Id})}}  " class="bet">Je parie {{ expertBet.priceOfAction }}€</a>
+					<a href="{{path('gameView', {'gameId': expertBet.gameId})}}  " class="bet">Parier sur ce match</a>
 		    	</div>
 		    	{% if i % 2 %}
 		    	    <div class="whiteCircle left">

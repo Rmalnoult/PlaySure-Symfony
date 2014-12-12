@@ -1,5 +1,13 @@
+
+
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(../images/BebasNeue.otf);
+}
+
 body {
-    font-style: 'Roboto', sans-serif;
+    font-family: 'BebasNeue', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -34,14 +42,14 @@ body, #content {
 #header h1, #header h1 a {
     color: #fff;
     padding: 0px;
-    margin: 20px 4%;
+    margin: 24px 4% -10px;
     text-decoration: none;
 }
 #header nav ul#userNav {
     float: right;
     margin-right: 100px;
     position: relative;
-    top: -70px;
+    top: -41px;
 }
 #header nav ul#userNav li {
     display: inline-block;
@@ -81,7 +89,7 @@ body, #content {
     width: 100%;
     margin: 0 auto;
     height: 50px;
-    background-color: #d1d6d9; 
+    background-color: #373da0; 
 
 }
  nav ul#mainNav li {
@@ -91,14 +99,14 @@ body, #content {
     padding: 0;
 }
  nav ul#mainNav li a {
-    color: #313232;
+    color: #FFF;
     font-weight: 400;
     font-size: 1.2em;
     display: block;
     padding: 13px 0;
     width: 100%;
     text-transform: uppercase;
-    background-color: #d1d6d9;   
+    background-color: #373da0;   
 
     position: relative;
     top: 0;
@@ -132,7 +140,7 @@ body, #content {
 .slider img.player {
     z-index: 5;
     position: relative;
-    left: 10%;
+    left: 0%;
 }
 .sliderText {
     position: absolute;
@@ -141,6 +149,11 @@ body, #content {
     color: #fff;
     text-align: center;
 }
+
+
+
+
+
 .expertText {
     position: absolute;
     right: 15%;
@@ -148,10 +161,66 @@ body, #content {
     color: #fff;
     text-align: center;
 }
+.expertName {
+    bottom: -9px;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+}
+.expertName a {
+    color: #fff;
+}
+.gameText {
+    position: absolute;
+    width: 100%;
+    top: 43px; 
+    color: #fff;
+    text-align: center;
+}
+.gameText h1 {
+    font-size: 3.4em;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.parier {
+    position: absolute;
+    right: 5%;
+    top: 63px; 
+    text-align: center;
+}
+.parier a {
+    text-decoration: none;
+    color: #fff;
+    background: -webkit-linear-gradient(90deg, #2a308f 0%, #414ad3 100%);
+    background: -moz-linear-gradient(90deg, #2a308f 0%, #414ad3 100%);
+    background: -o-linear-gradient(90deg, #2a308f 0%, #414ad3 100%);
+    background: -ms-linear-gradient(90deg, #2a308f 0%, #414ad3 100%);
+    background: linear-gradient(0deg, #2a308f 0%, #414ad3 100%);
+    padding: 20px;
+    float: right;
+    display: block; 
+    text-transform: uppercase;
+    position: relative;
+    border: none;
+    font-size: 2em;
+    margin: 0 0 30px;
+}
 .sliderText h2, .expertText h2 {
     text-transform: uppercase;
     font-size: 24px;
     margin-bottom: 0;
+}
+.fleche h2 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    position: relative;
+    left: -63px;
+    top: -49px;
+    width: 158px;
 }
 
 .sliderText h2 strong, .expertText h2 strong{
@@ -160,7 +229,7 @@ body, #content {
 }
 .sliderText a {
     padding: 15px 40px;
-    background-color: #F64747;
+    background-color: #373DA0;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -168,6 +237,32 @@ body, #content {
     position: relative;
     top: 15px;
 }
+.sliderText a:hover {
+    -webkit-box-shadow: 0 5px 5px 0 #141414;
+    box-shadow: 0 5px 5px 0 #141414;
+    z-index: 99;
+    top: 12px; 
+}
+
+#sample_goal, .goalProgress, .progressBar {
+    border-radius: 20px;
+    height: 10px !important;
+}
+div.progressBar {
+    padding: 0!important;
+}
+p.numberOfActions {
+    color: #fff;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -246,7 +341,7 @@ body, #content {
 .card a {
     text-decoration: none;
     color: #fff;
-    background-color: #F44336;
+    background-color: #373DA0;
     padding: 20px;
     display: block;
     margin-bottom: 15px;
@@ -276,16 +371,27 @@ body, #content {
 .card a.bet {
     width: 59%;
     text-align: center;
+    position: relative;
     margin: 0 auto;
+    top: 0;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+    --webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
-
-
+ .card a.bet:hover {
+    -webkit-box-shadow: 0 5px 5px 0 #141414;
+    box-shadow: 0 5px 5px 0 #141414;
+    z-index: 99;
+    top: -3px;
+}
 
 
 .card:after {
     content: " ";
     position: absolute;
-    top: 0;
+    top: -12px;
     left: -12px;
     bottom: 0;
     right: 0;

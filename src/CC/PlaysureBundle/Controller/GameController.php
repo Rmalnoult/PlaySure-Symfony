@@ -77,7 +77,7 @@ class GameController extends Controller
             ->getRepository('CCPlaysureBundle:ExpertBet')
             ->findByGameId($gameId);
 
-        
+
 
 
         $variablesToRender = array(

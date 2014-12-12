@@ -4,9 +4,10 @@
     {% block head %}
         <link rel="icon" sizes="16x16" href="{{ asset('favicon.ico') }}" />
         <link rel="stylesheet" href="{{ asset('bundles/ccplaysure/css/style.css') }}" />
+        <link rel="stylesheet" href="{{ asset('bundles/ccplaysure/css/goalProgress.css') }}" />
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
         <meta charset="UTF-8" />
-        <title>SSN</title>
+        <title>PlaySure !</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     {% endblock %}
@@ -95,5 +96,9 @@
         {% block javascripts %}
         
         {% endblock %}
+        <script type="text/javascript" src="{{ asset('bundles/ccplaysure/js/jquery-2.1.1.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/ccplaysure/js/goalProgress.js') }}"></script>
+
+        <script type="text/javascript" src="{{ asset('bundles/ccplaysure/js/script.js') }}"></script>
     </body>
 </html>

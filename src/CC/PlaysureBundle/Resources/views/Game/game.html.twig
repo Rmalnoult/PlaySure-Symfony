@@ -4,9 +4,10 @@
 {% block content %}
 	<!-- Si la variable games existe, elle est s'affiche ici -->
 	{% if game is defined %}
-    	<div class="card title">
-    		<h2 class="">{{ game.teamA }} VS {{ game.teamB }}</h2>
-    		<!-- <h3>Cotes</3> -->
+    	<div class="slider">
+	    	<img class="bcg" src="{{ asset('bundles/ccplaysure/images/expertBackground.jpg', absolute=true) }}" alt="fond">
+			<div class="gameText">
+				<h1 class="">{{ game.teamA }} VS {{ game.teamB }}</h2>	
 				<div class="cote">
 					<ul>
 						<li>
@@ -22,6 +23,10 @@
 					</ul>
 
 				</div>
+			</div>
+    		
+    		<!-- <h3>Cotes</3> -->
+
     		<p class="time" >{{ game.startTime }}</p>
     	</div>
 	{% endif %}
@@ -55,7 +60,7 @@
 		    		<div class="actions">
 		    			<p>{{ expertBet.numberOfActionsSold }} / {{ expertBet.numberOfActionsTotal }}</p>
 		    		</div>
-		    		<a href="{{path('gameView', {'gameId': game.id})}}  " class="bet">Parier sur cet expert</a>
+		    		<a href="{{path('expertBet', {'gameId': expertBet.gameId,'expertBetId': expertBet.id})}}  " class="bet">Parier avec cet expert</a>
 		    	</div>
 	    		{% if i % 2 %}
 	    		    <div class="whiteCircle left">

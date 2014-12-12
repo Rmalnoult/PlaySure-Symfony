@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"te",
+				"teamA"
+			],
+			[
+				"exper",
+				"expertBets"
+			],
+			[
+				"expert",
+				"expertBets"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
 				"re",
 				"repeat-y"
 			],
@@ -280,10 +304,6 @@
 				"usersArray"
 			],
 			[
-				"fo",
-				"for	for (…) {…}"
-			],
-			[
 				"congi",
 				"configTwitter"
 			],
@@ -372,18 +392,26 @@
 			}
 		},
 		{
-			"file": "src/CC/PlaysureBundle/Controller/ExpertController.php",
+			"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
 			"settings":
 			{
-				"buffer_size": 838,
+				"buffer_size": 2076,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/CC/PlaysureBundle/Resources/views/layout.html.twig",
+			"file": "src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
 			"settings":
 			{
-				"buffer_size": 3466,
+				"buffer_size": 1873,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "web/bundles/ccplaysure/css/style.css",
+			"settings":
+			{
+				"buffer_size": 5544,
 				"line_ending": "Windows"
 			}
 		},
@@ -391,16 +419,40 @@
 			"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
 			"settings":
 			{
-				"buffer_size": 1938,
+				"buffer_size": 1998,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "web/bundles/ccplaysure/css/style.css",
+			"file": "src/CC/PlaysureBundle/Controller/ExpertController.php",
 			"settings":
 			{
-				"buffer_size": 3811,
+				"buffer_size": 2037,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Resources/views/layout.html.twig",
+			"settings":
+			{
+				"buffer_size": 3727,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Entity/GameRepository.php",
+			"settings":
+			{
+				"buffer_size": 729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Entity/ExpertRepository.php",
+			"settings":
+			{
+				"buffer_size": 550,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -473,8 +525,9 @@
 		"/C/wamp/www/PlaySure/src/CC",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/config",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/translations",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Expert",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Game",
@@ -489,6 +542,8 @@
 	"file_history":
 	[
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/ExpertBetRepository.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/GameRepository.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/GameController.php",
@@ -496,7 +551,6 @@
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/config/routing.yml",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Admin/createNewExpertBet.html.twig",
 		"/C/wamp/www/PlaySure/app/config/security.yml",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/GameRepository.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Admin/createNewExpert.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/Expert.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/ExpertBet.php",
@@ -614,8 +668,7 @@
 		"/C/wamp/www/woodwood/wp-content/themes/woodwood/style.css",
 		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/pregame.html.twig",
 		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/layout.html.twig",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/public/css/style.css",
-		"/C/wamp/www/speeddego/wp-content/themes/speeddego/page-assainissement-paris-20.php"
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/public/css/style.css"
 	],
 	"find":
 	{
@@ -636,6 +689,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"card.title",
+			"container",
+			"slider",
+			"trait",
+			"container",
+			"hover",
+			"nav ul",
 			";\n",
 			"Game",
 			"game",
@@ -756,14 +816,7 @@
 			"75017",
 			"paris 17",
 			"paris17",
-			"paris16",
-			"paris 16",
-			"75016",
-			"75015",
-			"paris 15",
-			"paris15",
-			"paris14",
-			"paris 14"
+			"paris16"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -771,6 +824,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"nav ul#userNav",
 			"ExpertBet",
 			"expert",
 			"game",
@@ -897,8 +951,7 @@
 			"75004",
 			"paris 4",
 			"paris 3",
-			"75003",
-			"paris3"
+			"75003"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -909,7 +962,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -942,88 +995,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/CC/PlaysureBundle/Controller/ExpertController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 838,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								373,
-								373
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/CC/PlaysureBundle/Resources/views/layout.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3466,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1403,
-								1441
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 83.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
+					"buffer": 1,
+					"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1938,
+						"buffer_size": 2076,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1618,
-								1618
+								1688,
+								1688
 							]
 						],
 						"settings":
@@ -1035,41 +1024,236 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 332.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "web/bundles/ccplaysure/css/style.css",
-					"semi_transient": false,
+					"buffer": 2,
+					"file": "src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3811,
+						"buffer_size": 1873,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								318,
-								318
+								1822,
+								1690
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "web/bundles/ccplaysure/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5130,
+								5130
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 4264.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1676,
+								1587
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 372.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/CC/PlaysureBundle/Controller/ExpertController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1670,
+								1670
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 424.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/CC/PlaysureBundle/Resources/views/layout.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3512,
+								3512
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 760.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/CC/PlaysureBundle/Entity/GameRepository.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 6.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/CC/PlaysureBundle/Entity/ExpertRepository.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								80
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
