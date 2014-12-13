@@ -77,8 +77,18 @@ class GameController extends Controller
             ->getRepository('CCPlaysureBundle:ExpertBet')
             ->findByGameId($gameId);
 
+        $expertRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Expert');
 
+        foreach ($expertBets as $expertBet) {
+            $expertId = $expertBet->getExpertId();
+            // get expert
+            $expert = $expertRepository->getExpert($expertId);
 
+            $expertName = $expert->getName();
+
+           $expertBet->expertname = $expertName;
+            
+        }
 
         $variablesToRender = array(
                 'game' =>  $game,

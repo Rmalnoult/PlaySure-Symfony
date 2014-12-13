@@ -18,7 +18,6 @@
 	<div class="fleche">
 		<h2>Ses paris</h2>
 		<img class="pointe" src="{{ asset('bundles/ccplaysure/images/pointe.png', absolute=true) }}" alt="">
-		<img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
 	</div>
 	<!-- Si la variable games existe, elle est s'affiche ici -->
 	{% if expertBets is defined %}
@@ -47,8 +46,10 @@
 		    	</div>
 		    	{% if i % 2 %}
 		    	    <div class="whiteCircle left">
+		    	    <img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
 		    	{% else %}
 		    	    <div class="whiteCircle right">
+		    	    <img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
 		    	{% endif %}
 		    		<img src="{{ asset('bundles/ccplaysure/images/circle.png', absolute=true) }}" alt="cercle">
 		    	</div>

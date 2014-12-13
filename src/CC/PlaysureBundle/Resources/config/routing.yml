@@ -6,6 +6,10 @@ home:
     path:     /
     defaults: { _controller: CCPlaysureBundle:Home:index }
 
+calendar:
+    path:     /calendar
+    defaults: { _controller: CCPlaysureBundle:Home:calendar }
+
 submit_new_game:
     path:     /submitnewgame
     defaults: { _controller: CCPlaysureBundle:Game:submitNewGame }

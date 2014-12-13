@@ -36,7 +36,6 @@
 	<div id="container" class="home">
 		<div class="fleche">
 			<img class="pointe" src="{{ asset('bundles/ccplaysure/images/pointe.png', absolute=true) }}" alt="">
-			<img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
 		</div>
 		<!-- Si la variable games existe, elle est s'affiche ici -->
 		{% if expertBets is defined %}
@@ -50,7 +49,8 @@
 			{% else %}
 			    <div class="card right">
 			{% endif %}
-		    		<h2>{{ expertBet.expertName }}</h2>
+					<img class="expertPic" src="{{ asset('bundles/ccplaysure/images/expert'~ expertBet.expertId ~'.png', absolute=true) }}" alt="">
+		    		<h2>{{ expertBet.expertname }}</h2>
 		    		
 		    		<h2>{{ expertBet.PronosticTeamA }} - {{ expertBet.PronosticTeamB }}</h2>
 		    		
@@ -66,8 +66,10 @@
 		    	</div>
 	    		{% if i % 2 %}
 	    		    <div class="whiteCircle left">
+	    		    <img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
 	    		{% else %}
 	    		    <div class="whiteCircle right">
+	    		    <img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
 		    	{% endif %}
 		    			<img src="{{ asset('bundles/ccplaysure/images/circle.png', absolute=true) }}" alt="cercle">
 		    		</div>

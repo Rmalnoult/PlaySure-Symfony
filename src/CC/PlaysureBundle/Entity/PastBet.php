@@ -1,0 +1,340 @@
+<?php
+
+namespace CC\PlaysureBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * ExpertBet
+ *
+ * @ORM\Table()
+ * @ORM\Entity(repositoryClass="CC\PlaysureBundle\Entity\PastBetRepository")
+ */
+class PastBet
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="expertId", type="integer")
+     */
+    private $expertId;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="winning", type="integer")
+     */
+    private $winning;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="expertName", type="string")
+     */
+    private $expertName;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="numberOfActionsTotal", type="float")
+     */
+    private $numberOfActionsTotal;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="numberOfActionsSold", type="float")
+     */
+    private $numberOfActionsSold;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="priceOfAction", type="float")
+     */
+    private $priceOfAction;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="number", type="float")
+     */
+    private $number;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="gameId", type="integer")
+     */
+    private $gameId;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="userId", type="integer")
+     */
+    private $userId;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="PronosticTeamA", type="integer")
+     */
+    private $PronosticTeamA;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="PronosticTeamB", type="integer")
+     */
+    private $PronosticTeamB;
+    
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set expertId
+     *
+     * @param integer $expertId
+     * @return ExpertBet
+     */
+    public function setExpertId($expertId)
+    {
+        $this->expertId = $expertId;
+
+        return $this;
+    }
+
+    /**
+     * Get expertId
+     *
+     * @return integer 
+     */
+    public function getExpertId()
+    {
+        return $this->expertId;
+    }
+
+    /**
+     * Set number
+     *
+     * @param float $number
+     * @return ExpertBet
+     */
+    public function setNumber($number)
+    {
+        $this->number = $number;
+
+        return $this;
+    }
+
+    /**
+     * Get number
+     *
+     * @return float 
+     */
+    public function getNumber()
+    {
+        return $this->number;
+    }
+
+    /**
+     * Set gameId
+     *
+     * @param integer $gameId
+     * @return ExpertBet
+     */
+    public function setGameId($gameId)
+    {
+        $this->gameId = $gameId;
+
+        return $this;
+    }
+
+    /**
+     * Get gameId
+     *
+     * @return integer 
+     */
+    public function getGameId()
+    {
+        return $this->gameId;
+    }
+
+    /**
+     * Set userId
+     *
+     * @param integer $userId
+     * @return ExpertBet
+     */
+    public function setUserId($userId)
+    {
+        $this->userId = $userId;
+
+        return $this;
+    }
+
+    /**
+     * Get userId
+     *
+     * @return integer 
+     */
+    public function getUserId()
+    {
+        return $this->userId;
+    }
+
+    /**
+     * Set numberOfActionsTotal
+     *
+     * @param float $numberOfActionsTotal
+     * @return ExpertBet
+     */
+    public function setNumberOfActionsTotal($numberOfActionsTotal)
+    {
+        $this->numberOfActionsTotal = $numberOfActionsTotal;
+
+        return $this;
+    }
+
+    /**
+     * Get numberOfActionsTotal
+     *
+     * @return float 
+     */
+    public function getNumberOfActionsTotal()
+    {
+        return $this->numberOfActionsTotal;
+    }
+
+    /**
+     * Set numberOfActionsSold
+     *
+     * @param float $numberOfActionsSold
+     * @return ExpertBet
+     */
+    public function setNumberOfActionsSold($numberOfActionsSold)
+    {
+        $this->numberOfActionsSold = $numberOfActionsSold;
+
+        return $this;
+    }
+
+    /**
+     * Get numberOfActionsSold
+     *
+     * @return float 
+     */
+    public function getNumberOfActionsSold()
+    {
+        return $this->numberOfActionsSold;
+    }
+
+    /**
+     * Set priceOfAction
+     *
+     * @param float $priceOfAction
+     * @return ExpertBet
+     */
+    public function setPriceOfAction($priceOfAction)
+    {
+        $this->priceOfAction = $priceOfAction;
+
+        return $this;
+    }
+
+    /**
+     * Get priceOfAction
+     *
+     * @return float 
+     */
+    public function getPriceOfAction()
+    {
+        return $this->priceOfAction;
+    }
+
+    /**
+     * Set PronosticTeamA
+     *
+     * @param integer $pronosticTeamA
+     * @return ExpertBet
+     */
+    public function setPronosticTeamA($pronosticTeamA)
+    {
+        $this->PronosticTeamA = $pronosticTeamA;
+
+        return $this;
+    }
+
+    /**
+     * Get PronosticTeamA
+     *
+     * @return integer 
+     */
+    public function getPronosticTeamA()
+    {
+        return $this->PronosticTeamA;
+    }
+
+    /**
+     * Set PronosticTeamB
+     *
+     * @param integer $pronosticTeamB
+     * @return ExpertBet
+     */
+    public function setPronosticTeamB($pronosticTeamB)
+    {
+        $this->PronosticTeamB = $pronosticTeamB;
+
+        return $this;
+    }
+
+    /**
+     * Get PronosticTeamB
+     *
+     * @return integer 
+     */
+    public function getPronosticTeamB()
+    {
+        return $this->PronosticTeamB;
+    }
+
+    /**
+     * Set expertName
+     *
+     * @param string $expertName
+     * @return ExpertBet
+     */
+    public function setExpertName($expertName)
+    {
+        $this->expertName = $expertName;
+
+        return $this;
+    }
+
+    /**
+     * Get expertName
+     *
+     * @return string 
+     */
+    public function getExpertName()
+    {
+        return $this->expertName;
+    }
+}

@@ -399,7 +399,23 @@
 			"file": "web/bundles/ccplaysure/css/style.css",
 			"settings":
 			{
-				"buffer_size": 7622,
+				"buffer_size": 8746,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
+			"settings":
+			{
+				"buffer_size": 2156,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
+			"settings":
+			{
+				"buffer_size": 2407,
 				"line_ending": "Windows"
 			}
 		},
@@ -412,18 +428,10 @@
 			}
 		},
 		{
-			"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
+			"file": "web/bundles/ccplaysure/js/script.js",
 			"settings":
 			{
-				"buffer_size": 2272,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
-			"settings":
-			{
-				"buffer_size": 1944,
+				"buffer_size": 3284,
 				"line_ending": "Windows"
 			}
 		},
@@ -431,7 +439,7 @@
 			"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
 			"settings":
 			{
-				"buffer_size": 1998,
+				"buffer_size": 2110,
 				"line_ending": "Unix"
 			}
 		},
@@ -439,7 +447,7 @@
 			"file": "src/CC/PlaysureBundle/Resources/views/layout.html.twig",
 			"settings":
 			{
-				"buffer_size": 4153,
+				"buffer_size": 4223,
 				"line_ending": "Windows"
 			}
 		}
@@ -518,12 +526,7 @@
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Expert",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Game",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Home",
-		"/C/wamp/www/PlaySure/web/bundles",
-		"/C/wamp/www/PlaySure/web/bundles/ccplaysure",
-		"/C/wamp/www/PlaySure/web/bundles/ccplaysure/css",
-		"/C/wamp/www/PlaySure/web/bundles/ccplaysure/js",
-		"/C/wamp/www/PlaySure/web/js"
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Home"
 	],
 	"file_history":
 	[
@@ -675,6 +678,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"price",
+			"..i",
+			"1280",
 			"slidertext a",
 			"slidertex",
 			"slidercta",
@@ -799,10 +805,7 @@
 			"arrondissement",
 			"paris 20",
 			"paris 20ème",
-			"paris20",
-			"paris 20",
-			"arrondissement",
-			"arrondissement "
+			"paris20"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -810,6 +813,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"8",
+			"7",
+			"6",
+			"5",
+			"4",
+			"3",
+			"2",
+			"1",
 			"nav ul#userNav",
 			"ExpertBet",
 			"expert",
@@ -929,15 +940,7 @@
 			"75006",
 			"Paris6",
 			"Paris 6",
-			"Paris 5",
-			"75005",
-			"paris 5",
-			"paris5",
-			"paris4",
-			"75004",
-			"paris 4",
-			"paris 3",
-			"75003"
+			"Paris 5"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -948,7 +951,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -981,7 +984,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -990,15 +993,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7622,
+						"buffer_size": 8746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4528,
-								4528
+								6029,
+								6029
 							]
 						],
 						"settings":
@@ -1011,14 +1014,82 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3124.0,
+						"translation.y": 4522.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1793,
+								1441
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 245.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1475,
+								1475
+							],
+							[
+								1543,
+								1543
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 597.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "src/CC/PlaysureBundle/Resources/views/Expert/expertBet.html.twig",
 					"semi_transient": false,
 					"settings":
@@ -1044,56 +1115,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2272,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1945,
-								1815
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 597.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
+					"buffer": 5,
+					"file": "web/bundles/ccplaysure/js/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1944,
+						"buffer_size": 3284,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1541,
-								1541
+								414,
+								434
 							]
 						],
 						"settings":
@@ -1101,31 +1140,31 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 363.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1998,
+						"buffer_size": 2110,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								374,
-								416
+								290,
+								290
 							]
 						],
 						"settings":
@@ -1144,20 +1183,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "src/CC/PlaysureBundle/Resources/views/layout.html.twig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4153,
+						"buffer_size": 4223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4011,
-								4011
+								2568,
+								2568
 							]
 						],
 						"settings":
@@ -1170,7 +1209,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1337.0,
+						"translation.y": 197.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,

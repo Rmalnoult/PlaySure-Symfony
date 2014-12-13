@@ -9,6 +9,8 @@ use CC\PlaysureBundle\Entity\ExpertBet;
 use CC\PlaysureBundle\Entity\ExpertBetRepository;
 use CC\PlaysureBundle\Entity\Expert;
 use CC\PlaysureBundle\Entity\ExpertRepository;
+use CC\PlaysureBundle\Entity\PastBet;
+use CC\PlaysureBundle\Entity\PastBetRepository;
 
 class ExpertController extends Controller
 {
@@ -73,6 +75,78 @@ class ExpertController extends Controller
 
         // return $this->render('CCPlaysureBundle:Home:index.html.twig', $variablesToRender);  
     }
+
+
+
+
+
+
+
+    public function pastBetAction($expertId)
+    {
+        
+
+
+
+        // get expert name, expert games
+        // put the name as a css class to display pic
+
+
+        //display all games
+        $expertRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Expert');
+        // get expert
+        $expert = $expertRepository->getExpert($expertId);
+
+        $expertName = $expert->getName();
+
+        // get this expert's bet
+        $pastBetRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:PastBet');
+        // get expertBets
+        $pastBets = $pastBetRepository->getPastBets($expertId);
+
+
+        // get games for the expertBets
+
+         $gameRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Game');
+         // get games
+
+         foreach ($pastBets as $pastBet) {
+            $gameId = $pastBet->getGameId();
+            $game = $gameRepository->getGame($gameId);
+
+            $teamA = $game->getTeamA();
+            $teamB = $game->getTeamB();
+
+            $pastBet->teamA = $teamA;
+            $pastBet->teamB = $teamB;            
+
+         }
+    
+
+
+        $variablesToRender = array(
+                'pastBets' =>  $pastBets,
+                'expertName' =>  $expertName,
+                'expert' =>  $expert,
+                );   
+
+        return $this->render('CCPlaysureBundle:Expert:profile.html.twig', $variablesToRender);
+
+
+
+
+        // $variablesToRender = array(
+        //         'games' =>  $games,
+        //         );  
+
+        // return $this->render('CCPlaysureBundle:Home:index.html.twig', $variablesToRender);  
+    }
+
+
+
+
+
+
     public function expertBetAction($gameId, $expertBetId)
     {
         
@@ -92,25 +166,30 @@ class ExpertController extends Controller
 
         $expertName = $expert->getName();
 
-        // get games for the expertBets
+        $pastBetRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:PastBet');
+        // get expertBets
+        $pastBets = $pastBetRepository->getPastBets($expertId);
 
-         // foreach ($expertBets as $expertBet) {
-         //    $gameId = $expertBet->getGameId();
-         //    $game = $gameRepository->getGame($gameId);
 
-         //    $teamA = $game->getTeamA();
-         //    $teamB = $game->getTeamB();
+         // get games
 
-         //    $expertBet->teamA = $teamA;
-         //    $expertBet->teamB = $teamB;            
+         foreach ($pastBets as $pastBet) {
+            $gameId = $pastBet->getGameId();
+            $game = $gameRepository->getGame($gameId);
 
-         // }
-        
+            $teamA = $game->getTeamA();
+            $teamB = $game->getTeamB();
+
+            $pastBet->teamA = $teamA;
+            $pastBet->teamB = $teamB;            
+
+         }
 
 
         $variablesToRender = array(
                 'expertBet' =>  $expertBet,
                 'expertName' =>  $expertName,
+                'pastBets' =>  $pastBets,
                 'expert' =>  $expert,
                 'game' => $game,
                 );   

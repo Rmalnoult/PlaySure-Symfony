@@ -13,13 +13,25 @@ class HomeController extends Controller
     public function indexAction()
     {
 
-    	//display all games
-    	$gameRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Game');
-		$games = $gameRepository->getAllGames();
+        //display all games
+        $gameRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Game');
+        $games = $gameRepository->getAllGames();
         $variablesToRender = array(
                 'games' =>  $games,
-                );	
+                );  
 
         return $this->render('CCPlaysureBundle:Home:index.html.twig', $variablesToRender);
+    }
+    public function calendarAction()
+    {
+
+        //display all games
+        $gameRepository = $this->getDoctrine()->getRepository('CCPlaysureBundle:Game');
+        $games = $gameRepository->getAllGames();
+        $variablesToRender = array(
+                'games' =>  $games,
+                );  
+
+        return $this->render('CCPlaysureBundle:Home:calendar.html.twig', $variablesToRender);
     }
 }

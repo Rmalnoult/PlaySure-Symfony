@@ -1,17 +1,6 @@
 {% extends "CCPlaysureBundle::layout.html.twig" %}
 
 {% block slider %}
-    <div class="slider">
-    	<img class="bcg" src="{{ asset('bundles/ccplaysure/images/expertBackground.jpg', absolute=true) }}" alt="fond">
-    	<img class="player" src="{{ asset('bundles/ccplaysure/images/expert3.png', absolute=true) }}" alt="les pronostics de frank leboeuf">
-
-		<div class="sliderText">
-			<h2>L'expert du mois</h2>
-			<h1>Franck Leboeuf</h1>
-			<p>Pariez comme les champions !</p>
-			<a href="{{path('expertProfile', {'expertId': 3})}}" class="sliderCTA">Voir Ses Paris</a>
-		</div>
-    </div>
 {% endblock %}
 
 

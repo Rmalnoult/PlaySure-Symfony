@@ -12,7 +12,7 @@
 		<div class="parier">
 			<a href="{{path('expertProfile', {'expertId': 3})}}" class="sliderCTA">Parier {{ expertBet.priceOfAction }}€</a>
 			<p class="numberOfActions" ><span class="numberOfActionsSold">{{ expertBet.numberOfActionsSold }}</span> parieurs sur <span class="numberOfActionsTotal">{{ expertBet.numberOfActionsTotal }}</span></p>
-			<div id="sample_goal"></div>
+			<div id="bar1"></div>
 
 		</div>
 		<div class="clear"></div>
@@ -22,16 +22,15 @@
 
 {% block content %}
 <div id="container" class="home">
-	<div class="fleche">
-		<h2>Ses paris</h2>
+	<div class="fleche experbet">
+		<h2>Ses précédents paris</h2>
 		<img class="pointe" src="{{ asset('bundles/ccplaysure/images/pointe.png', absolute=true) }}" alt="">
-		<img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
 	</div>
 	<!-- Si la variable games existe, elle est s'affiche ici -->
-	{% if expertBets is defined %}
+	{% if pastBets is defined %}
 	<!-- Boucle qui affiche chaque game -->
 		{% set i = 0 %}
-		{% for expertBet in expertBets %}
+		{% for pastBet in pastBets %}
 				{% set i = i + 1 %}
 
 				{% if i % 2 %}
@@ -40,18 +39,21 @@
 				    <div class="card right">
 				{% endif %}
 		    	
-		    		<h2 class="">{{ expertBet.teamA }} VS {{ expertBet.teamB }}</h2>
-		    		<h2 class="">{{ expertBet.pronosticTeamA }} - {{ expertBet.pronosticTeamB }}</h2>
+		    		<h2 class="">{{ pastBet.teamA }} VS {{ pastBet.teamB }}</h2>
+		    		<h2 class="">{{ pastBet.pronosticTeamA }} - {{ pastBet.pronosticTeamB }}</h2>
 		    		<div class="actions">
-		    			<p>{{ expertBet.priceOfAction }} €</p>
-		    			<p>{{ expertBet.numberOfActionsSold }} / {{ expertBet.numberOfActionsTotal }}</p>
+		    			<p><span class="numberOfActionsSold{{ i }}">{{ expertBet.numberOfActionsSold }}</span> parieurs sur <span class="numberOfActionsTotal{{ i }}" >{{ expertBet.numberOfActionsTotal }}</span></p>
+		    			<div id="bar{{ i }}"></div>
+		    			
 		    		</div>
-					<a href="{{path('gameView', {'gameId': expertBet.gameId})}}  " class="bet">Parier sur ce match</a>
+		    		<div class="clear"></div>
 		    	</div>
 		    	{% if i % 2 %}
 		    	    <div class="whiteCircle left">
+		    	    <img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
 		    	{% else %}
 		    	    <div class="whiteCircle right">
+		    	    <img class="trait" src="{{ asset('bundles/ccplaysure/images/trait.png', absolute=true) }}" alt="">
 		    	{% endif %}
 		    		<img src="{{ asset('bundles/ccplaysure/images/circle.png', absolute=true) }}" alt="cercle">
 		    	</div>
