@@ -33,7 +33,7 @@
 
 
 
-	<div id="container" class="home">
+	<div id="container" class="game">
 		<div class="fleche">
 			<img class="pointe" src="{{ asset('bundles/ccplaysure/images/pointe.png', absolute=true) }}" alt="">
 		</div>
@@ -54,7 +54,7 @@
 		    		
 		    		<h2>{{ expertBet.PronosticTeamA }} - {{ expertBet.PronosticTeamB }}</h2>
 		    		
-		    		<a href="{{path('expertBet', {'gameId': expertBet.gameId,'expertBetId': expertBet.id})}}  " class="bet">Parier avec cet expert</a>
+		    		<a href="{{path('bet', {'gameId': expertBet.gameId,'expertBetId': expertBet.id})}}  " class="bet">Je parie {{ expertBet.priceOfAction }}€</a>
 		    		<p class="price">{{ expertBet.priceOfAction }} €</p>
 		    		<div class="actions">
 		    			<p><span class="numberOfActionsSold{{ i }}">{{ expertBet.numberOfActionsSold }}</span> parieurs sur <span class="numberOfActionsTotal{{ i }}" >{{ expertBet.numberOfActionsTotal }}</span></p>

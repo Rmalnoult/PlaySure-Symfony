@@ -24,16 +24,9 @@ class Bet
     /**
      * @var integer
      *
-     * @ORM\Column(name="expertId", type="integer")
+     * @ORM\Column(name="expertBetId", type="integer")
      */
-    private $expertId;
-
-    /**
-     * @var float
-     *
-     * @ORM\Column(name="number", type="float")
-     */
-    private $number;
+    private $expertBetId;
 
     /**
      * @var integer
@@ -150,5 +143,28 @@ class Bet
     public function getUserId()
     {
         return $this->userId;
+    }
+
+    /**
+     * Set expertBetId
+     *
+     * @param integer $expertBetId
+     * @return Bet
+     */
+    public function setExpertBetId($expertBetId)
+    {
+        $this->expertBetId = $expertBetId;
+
+        return $this;
+    }
+
+    /**
+     * Get expertBetId
+     *
+     * @return integer 
+     */
+    public function getExpertBetId()
+    {
+        return $this->expertBetId;
     }
 }

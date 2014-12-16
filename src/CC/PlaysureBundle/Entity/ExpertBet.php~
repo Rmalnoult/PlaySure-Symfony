@@ -307,4 +307,27 @@ class ExpertBet
     {
         return $this->PronosticTeamB;
     }
+
+    /**
+     * Set expertName
+     *
+     * @param string $expertName
+     * @return ExpertBet
+     */
+    public function setExpertName($expertName)
+    {
+        $this->expertName = $expertName;
+
+        return $this;
+    }
+
+    /**
+     * Get expertName
+     *
+     * @return string 
+     */
+    public function getExpertName()
+    {
+        return $this->expertName;
+    }
 }

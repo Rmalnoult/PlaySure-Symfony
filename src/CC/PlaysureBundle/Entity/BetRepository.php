@@ -12,4 +12,17 @@ use Doctrine\ORM\EntityRepository;
  */
 class BetRepository extends EntityRepository
 {
+	public function getbet($betId)
+	{
+		$betRepository = $this->getEntityManager()->getRepository('CCPlaysureBundle:Expert');
+		$bet = $expertRepository->find($betId);
+		return $bet;
+	}
+	public function getBetsByUserId($userId)
+	{
+		$betRepository = $this->getEntityManager()->getRepository('CCPlaysureBundle:Bet');
+		$bets = $betRepository->findByUserId($userId, array('id' => 'DESC'));
+		return $bets;		
+	}
+
 }

@@ -388,66 +388,84 @@
 	"buffers":
 	[
 		{
-			"file": "src/CC/PlaysureBundle/Resources/config/routing.yml",
+			"file": "/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Tests/Controller/PostControllerTest.php",
 			"settings":
 			{
-				"buffer_size": 1073,
+				"buffer_size": 301,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Controller/PostController.php",
+			"settings":
+			{
+				"buffer_size": 4003,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "web/bundles/ccplaysure/css/style.css",
+			"contents": "Searching 17 files for \"18\"\n\nC:\\wamp\\www\\partiel-agile-Romain-Malnoult\\exam2014\\src\\Test\\Bundle\\TaskBundle\\Command\\TaskCommand.php:\n   11  \n   12  /**\n   13:  * php app/console test:developper --min-age 18\n   14   */\n   15  \n\nC:\\wamp\\www\\partiel-agile-Romain-Malnoult\\exam2014\\src\\Test\\Bundle\\TaskBundle\\Entity\\Developper.php:\n   32          else\n   33          {\n   34:             if($this->age < 18)\n   35              {\n   36                  $context->addViolationAt('age', 'age_min_error');\n\n2 matches across 2 files\n\n\nSearching 39 files for \"age_min_error\"\n\n0 matches across 0 files\n\n\nSearching 18 files for \"age_min\"\n\nC:\\wamp\\www\\partiel-agile-Romain-Malnoult\\exam2014\\src\\Test\\Bundle\\TaskBundle\\Entity\\Developper.php:\n   34              if($this->age < 18)\n   35              {\n   36:                 $context->addViolationAt('age', 'age_min_error');\n   37                  return false;\n   38              }\n\n1 match in 1 file\n\n\nSearching 18 files for \"min-age\"\n\nC:\\wamp\\www\\partiel-agile-Romain-Malnoult\\exam2014\\src\\Test\\Bundle\\TaskBundle\\Command\\TaskCommand.php:\n   11  \n   12  /**\n   13:  * php app/console test:developper --min-age 18\n   14   */\n   15  \n   ..\n   23              ->setName('test:developper')\n   24              ->setDescription('Récupère un developpeur depuis un web service')\n   25:             ->addOption('min-age', null, InputOption::VALUE_REQUIRED, \"Age minimum du développeur\")\n   26          ;\n   27      }\n   ..\n   31          $output->writeln(\"Service de validation d'un developpeur\");\n   32          \n   33:         $this->min_age = $input->getOption('min-age');\n   34          \n   35          $output->writeln(\"Le developpeur doit avoir au moins : \".$this->min_age);\n\n3 matches in 1 file\n",
 			"settings":
 			{
-				"buffer_size": 8746,
+				"buffer_size": 1730,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Command/TaskCommand.php",
+			"settings":
+			{
+				"buffer_size": 1781,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
+			"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Test/Controller/TaskControllerTest.php",
 			"settings":
 			{
-				"buffer_size": 2156,
+				"buffer_size": 456,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
+			"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Entity/Developper.php",
 			"settings":
 			{
-				"buffer_size": 2407,
+				"buffer_size": 1051,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/CC/PlaysureBundle/Resources/views/Expert/expertBet.html.twig",
+			"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Service/DevelopperManager.php",
 			"settings":
 			{
-				"buffer_size": 2497,
+				"buffer_size": 1101,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "web/bundles/ccplaysure/js/script.js",
+			"file": "/C/wamp/www/nodejsDashboard/controller/home.js",
 			"settings":
 			{
-				"buffer_size": 3284,
+				"buffer_size": 821,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
+			"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/app/Resources/translations/messages.fr.xlf",
 			"settings":
 			{
-				"buffer_size": 2110,
-				"line_ending": "Unix"
+				"buffer_size": 2119,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/CC/PlaysureBundle/Resources/views/layout.html.twig",
+			"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/app/phpunit.xml.dist",
 			"settings":
 			{
-				"buffer_size": 4223,
+				"buffer_size": 1327,
 				"line_ending": "Windows"
 			}
 		}
@@ -516,48 +534,75 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp/www/PlaySure",
-		"/C/wamp/www/PlaySure/src",
-		"/C/wamp/www/PlaySure/src/CC",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/translations",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Expert",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Game",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Home"
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Command",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Controller",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/DependencyInjection",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Entity",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Form",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Resources",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Resources/config",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Resources/doc",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Resources/translations",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Resources/views",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Resources/views/Task",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Service",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Test",
+		"/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Test/Controller"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/Template html css js jquery/index.html",
+		"/C/wamp/www/Template html css js jquery/js/script.js",
+		"/C/wamp/www/Template html css js jquery/js/jquery.js",
+		"/C/wamp/www/nodejsDashboard/node_modules/socket.io/node_modules/socket.io-client/socket.io.js",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Resources/config/routing.yml",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/layout.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/ExpertRepository.php",
+		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Entity/Post.php",
+		"/C/wamp/www/PlaySure/web/bundles/ccplaysure/css/style.css",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/config/routing.yml",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Home/calendar.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Expert/expertBet.html.twig",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
+		"/C/wamp/www/PlaySure/web/bundles/ccplaysure/js/script.js",
+		"/C/wamp/www/PlaySure/src/.htaccess",
+		"/C/wamp/www/PlaySure/app/AppKernel.php",
+		"/C/wamp/www/PlaySure/composer.json",
+		"/C/wamp/www/PlaySure/app/config/parameters.yml",
+		"/C/wamp/www/PlaySure/web/app_dev.php",
+		"/C/wamp/www/PlaySure/.htaccess",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/GameController.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/ExpertController.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/HomeController.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/PastBet.php",
+		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/PastBetRepository.php",
+		"/C/wamp/www/PlaySure/vendor/composer/autoload_namespaces.php",
+		"/C/wamp/www/PlaySure/app/config/routing_dev.yml",
+		"/C/wamp/www/PlaySure/app/logs/prod.log",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/public/js/script.js",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/public/js/goalProgress.js",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/public/css/goalProgress.css",
 		"/C/wamp/www/PlaySure/web/js/script.js",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/ExpertBetRepository.php",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/ExpertRepository.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/GameRepository.php",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/BetController.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/AdminController.php",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/config/routing.yml",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Admin/createNewExpertBet.html.twig",
 		"/C/wamp/www/PlaySure/app/config/security.yml",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Admin/createNewExpert.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/Expert.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/ExpertBet.php",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Controller/HomeController.php",
 		"/C/wamp/www/portfolio/js/script.js",
 		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/header.php",
 		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/footer.php",
 		"/C/Users/Romain/Desktop/scroll2anchor.js",
 		"/C/wamp/www/speeddego/wp-content/themes/speeddego/js/script.js",
-		"/C/wamp/www/PlaySure/web/bundles/ccplaysure/css/style.css",
-		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/layout.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Admin/submitNewGame.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Entity/Game.php",
 		"/C/wamp/www/PlaySure/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig",
@@ -574,12 +619,9 @@
 		"/C/wamp/www/PlaySure/app/config/routing.yml",
 		"/C/wamp/www/PlaySure/src/Acme/DemoBundle/Resources/config/routing.yml",
 		"/C/wamp/www/PlaySure/src/CC/UserBundle/Entity/User.php",
-		"/C/wamp/www/PlaySure/app/AppKernel.php",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Default/hello.html.twig",
 		"/C/wamp/www/PlaySure/src/CC/UserBundle/Resources/config/routing.yml",
-		"/C/wamp/www/PlaySure/composer.json",
 		"/C/wamp/www/PlaySure/src/CC/PlaysureBundle/Resources/views/Default/index.html.twig",
-		"/C/wamp/www/PlaySure/app/config/parameters.yml",
 		"/C/wamp/www/PlaySure/.gitignore",
 		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/js/socialShareCounter.js",
 		"/C/wamp/www/questiologie/wp-content/themes/twentytwelve-child/functions.php",
@@ -592,7 +634,6 @@
 		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Tests/Controller/PostControllerTest.php",
 		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Resources/views/layout.html.twig",
 		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Resources/views/Default/allPostsOnHomepage.html.twig",
-		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Resources/config/routing.yml",
 		"/C/wamp/www/ScrumSocialNetwork/web/bundles/smssn/css/style.css",
 		"/C/wamp/www/ScrumSocialNetwork/src/SM/UserBundle/Resources/views/Registration/register.html.twig",
 		"/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Controller/DefaultController.php",
@@ -641,23 +682,7 @@
 		"/C/wamp/www/BlackjackSymfony/web/bundles/lasventuras/css/style.css",
 		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Entity/RoundRepository.php",
 		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Default/index.html.twig",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/result.html.twig",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Entity/Round.php",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Stats/stats.html.twig",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/game.html.twig",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/DefaultController.php",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/HomeController.php",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Entity/RevealedcardsRepository.php",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/StatsController.php",
-		"/C/wamp/www/archive/20141110 - BlackjackSymfony - archive/src/LasVenturas/BlackjackBundle/Entity/RoundRepository.php",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/PreGameController.php",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Controller/UserController.php",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/lose.html.twig",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/tie.html.twig",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/win.html.twig",
-		"/C/wamp/www/symfonyCasino/src/TestNamespace/ORMTestBundle/Controller/DefaultController.php",
-		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Entity/User.php",
-		"/C/wamp/www/BlackjackSymfony/.gitignore"
+		"/C/wamp/www/BlackjackSymfony/src/LasVenturas/BlackjackBundle/Resources/views/Game/result.html.twig"
 	],
 	"find":
 	{
@@ -668,6 +693,9 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\wamp\\www\\partiel-agile-Romain-Malnoult\\exam2014\\src\\Test",
+			"C:\\wamp\\www\\ScrumSocialNetwork\\src\\SM",
+			"C:\\wamp\\www\\partiel-agile-Romain-Malnoult\\exam2014\\src\\Test\\Bundle\\TaskBundle",
 			"C:\\wamp\\www\\PlaySure",
 			"C:\\wamp\\www\\speeddego\\wp-content\\themes\\speeddego",
 			"C:\\wamp\\www\\questiologie\\wp-content\\plugins\\events-manager"
@@ -678,6 +706,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"min-age",
+			"age_min",
+			"age_min_error",
+			"18",
+			"trait",
+			"expert",
+			"samp",
+			".card",
+			"jms",
+			"DoctrineCacheBundle",
+			"swift",
+			"gestor",
+			"debug",
 			"price",
 			"..i",
 			"1280",
@@ -792,20 +833,7 @@
 			"bordConC",
 			"bord",
 			"dentée",
-			"denté",
-			"paris20",
-			"75020",
-			"paris 75020",
-			"paris 20",
-			"arrondissement",
-			"paris 20ème arrondissement",
-			"75020",
-			"paris",
-			"75020",
-			"arrondissement",
-			"paris 20",
-			"paris 20ème",
-			"paris20"
+			"denté"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -813,6 +841,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"past",
 			"8",
 			"7",
 			"6",
@@ -939,8 +968,7 @@
 			"75007",
 			"75006",
 			"Paris6",
-			"Paris 6",
-			"Paris 5"
+			"Paris 6"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -951,24 +979,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/CC/PlaysureBundle/Resources/config/routing.yml",
+					"file": "/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Tests/Controller/PostControllerTest.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1073,
+						"buffer_size": 301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14,
-								14
+								5,
+								5
 							]
 						],
 						"settings":
@@ -976,32 +1004,30 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "web/bundles/ccplaysure/css/style.css",
+					"file": "/C/wamp/www/ScrumSocialNetwork/src/SM/SSNBundle/Controller/PostController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8746,
+						"buffer_size": 4003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6029,
-								6029
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1009,130 +1035,229 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1663.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1730,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										203,
+										205
+									],
+									[
+										399,
+										401
+									],
+									[
+										843,
+										850
+									],
+									[
+										1139,
+										1146
+									],
+									[
+										1340,
+										1347
+									],
+									[
+										1593,
+										1600
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"line_numbers": false,
+							"output_tag": 4,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 525.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Command/TaskCommand.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1148,
+								1158
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4522.0,
+						"translation.y": 281.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/CC/PlaysureBundle/Resources/views/Expert/profile.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2156,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1793,
-								1441
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 245.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/CC/PlaysureBundle/Resources/views/Game/game.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1475,
-								1475
-							],
-							[
-								1543,
-								1543
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 597.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "src/CC/PlaysureBundle/Resources/views/Expert/expertBet.html.twig",
+					"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Test/Controller/TaskControllerTest.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2497,
+						"buffer_size": 456,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								102,
-								338
+								348,
+								348
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Entity/Developper.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								884,
+								884
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "web/bundles/ccplaysure/js/script.js",
+					"buffer": 6,
+					"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/src/Test/Bundle/TaskBundle/Service/DevelopperManager.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3284,
+						"buffer_size": 1101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								414,
-								434
+								444,
+								444
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/wamp/www/nodejsDashboard/controller/home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								818,
+								818
 							]
 						],
 						"settings":
@@ -1143,28 +1268,28 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "src/CC/PlaysureBundle/Resources/views/Home/index.html.twig",
+					"buffer": 8,
+					"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/app/Resources/translations/messages.fr.xlf",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2110,
+						"buffer_size": 2119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								290,
-								290
+								2046,
+								2046
 							]
 						],
 						"settings":
@@ -1172,47 +1297,48 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/CC/PlaysureBundle/Resources/views/layout.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4223,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2568,
-								2568
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"syntax": "Packages/XML/XML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 197.0,
+						"translation.y": 207.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/wamp/www/partiel-agile-Romain-Malnoult/exam2014/app/phpunit.xml.dist",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								795,
+								795
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

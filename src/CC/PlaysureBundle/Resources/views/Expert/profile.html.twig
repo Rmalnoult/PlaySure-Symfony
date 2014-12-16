@@ -7,6 +7,7 @@
     	<img class="player" src="{{ asset('bundles/ccplaysure/images/expert'~ expert.Id ~'.png', absolute=true) }}" alt="fond">
 		<div class="expertText">
 			<h2><strong>{{expertName}}</strong></h2>
+			<p class="expertDescription">{{ expert.Description }}</p>
 		</div>
 		<div class="clear"></div>
     </div>
@@ -14,7 +15,7 @@
 
 
 {% block content %}
-<div id="container" class="home">
+<div id="container" class="profile">
 	<div class="fleche">
 		<h2>Ses paris</h2>
 		<img class="pointe" src="{{ asset('bundles/ccplaysure/images/pointe.png', absolute=true) }}" alt="">
@@ -31,10 +32,10 @@
 				{% else %}
 				    <div class="card right">
 				{% endif %}
-		    	
+			    	<img class="expertPic" src="{{ asset('bundles/ccplaysure/images/expert'~ expertBet.expertId ~'.png', absolute=true) }}" alt="">
 		    		<h2 class="">{{ expertBet.teamA }} VS {{ expertBet.teamB }}</h2>
 		    		<h2 class="">{{ expertBet.pronosticTeamA }} - {{ expertBet.pronosticTeamB }}</h2>
-		    		<a href="{{path('expertBet', {'gameId': expertBet.gameId, 'expertBetId': expertBet.Id})}}  " class="bet">Je parie {{ expertBet.priceOfAction }}€</a>
+<a href="{{path('bet', {'gameId': expertBet.gameId,'expertBetId': expertBet.id})}}  " class="bet">Je parie {{ expertBet.priceOfAction }}€</a>
 		    		<p class="price">{{ expertBet.priceOfAction }} €</p>
 		    		<div class="actions">
 		    			<p><span class="numberOfActionsSold{{ i }}">{{ expertBet.numberOfActionsSold }}</span> parieurs sur <span class="numberOfActionsTotal{{ i }}" >{{ expertBet.numberOfActionsTotal }}</span></p>

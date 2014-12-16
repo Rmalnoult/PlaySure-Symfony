@@ -41,3 +41,12 @@ ajaxTest:
 expertBet:
     path:    /expertBet/{gameId}/{expertBetId}
     defaults: {_controller: CCPlaysureBundle:Expert:expertBet}
+
+bet:
+    path:    /bet/{gameId}/{expertBetId}
+    defaults: {_controller: CCPlaysureBundle:Bet:placeNewBet}
+
+userBets:
+    path:    /{userId}/bets
+    defaults: {_controller: CCPlaysureBundle:Bet:displayUserBets}
+

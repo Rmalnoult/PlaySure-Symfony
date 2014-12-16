@@ -35,6 +35,13 @@ class Expert
      */
     private $userId;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="description", type="text")
+     */
+    private $description;
+
 
     /**
      * Get id
@@ -90,5 +97,28 @@ class Expert
     public function getUserId()
     {
         return $this->userId;
+    }
+
+    /**
+     * Set description
+     *
+     * @param \varchar $description
+     * @return Expert
+     */
+    public function setDescription(\varchar $description)
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    /**
+     * Get description
+     *
+     * @return \varchar 
+     */
+    public function getDescription()
+    {
+        return $this->description;
     }
 }

@@ -31,10 +31,25 @@ body, #content {
     max-width: 1380px;
     width: 100%;
     margin: 0 auto;
+
 }
 
+form {
+    width: 15%;
+    margin: 40px auto;
+    display: block;
+}
+.cote ul {
+    margin-top: 20px;
+}
+.cote ul li {
+    display: inline-block;
+    font-size: 1.2em;
 
-
+}
+.cote ul li+li {
+    margin-left: 20px;
+}
 
 /*          Header            */
 #header {
@@ -105,6 +120,9 @@ body, #content {
 
 }
 
+h2 {
+    text-align: center;
+}
  nav ul#mainNav li {
     display: inline-block;
     width: 24.65%;
@@ -247,10 +265,22 @@ nav ul#mainNav li +  li {
     font-size: 2em;
     margin: 0 0 30px;
 }
-.sliderText h2, .expertText h2 {
+.sliderText h2 {
     text-transform: uppercase;
     font-size: 24px;
     margin-bottom: 0;
+}
+.expertText h2 {
+    margin: -21px 192px 0 0;
+    text-transform: uppercase;
+}
+.expertText h2 strong {
+     font-size: 55px;   
+}
+.expertText p.expertDescription {
+    width: 458px;
+    text-align: left;
+    margin: 42px 0;
 }
 .fleche h2 {
     color: #ffffff;
@@ -273,7 +303,7 @@ nav ul#mainNav li +  li {
     width: 286px;
 }
 
-.sliderText h2 strong, .expertText h2 strong{
+.sliderText h2 strong{
     text-transform: uppercase;
     font-size: 32px;
 }
@@ -339,8 +369,9 @@ p.price {
 
 
 
-#container.home {
+#container.home, #container.profile, #container.game {
     background-image: url(../images/stade.jpg);
+    overflow: hidden;
 }
 
 #container {
@@ -359,6 +390,7 @@ p.price {
     display: block;
     margin: 0 auto;
 }
+
 #container img.pointe {
     position: absolute;
     top: 0;
@@ -369,6 +401,12 @@ p.price {
     position: absolute;
     top: -45px;
     width: 12px;
+}
+#container.profile img.trait {
+    top: -189px;
+}
+#container.game img.trait {
+    top: -116px;
 }
 
 
@@ -446,6 +484,8 @@ p.price {
     position: relative;
     margin: 0 auto;
     top: 0;
+    font-size: 1.6em;
+    padding: 15px;
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
     --webkit-transition: all .2s ease-in-out;
